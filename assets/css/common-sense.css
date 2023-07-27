@@ -108,3 +108,10 @@ h1,h2,h3,h4,h5,h6,
     height: 4rem;
   }
 }
+
+/* Calendly button */
+
+.calendly-badge-content {
+  background: #FF801F;
+  color: white;
+}

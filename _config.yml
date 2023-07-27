@@ -12,7 +12,9 @@ title-img: /assets/img/logo-default.png
 
 rss-description: Common Sense Systems has provided software engineering services to high-tech companies in the Seattle area since 1996.
 
-navbar-col: "#f2f2f2"
+#keywords: "my,list,of,keywords,for,SEO"
+
+navbar-col: "#F2F2F2"
 navbar-text-col: "#000000"
 navbar-border-col: "#F2F2F2"
 page-col: "#FFFFFF"
@@ -32,7 +34,8 @@ feed_show_tags: true
 
 site-css: "/assets/css/common-sense.css"
 
-#keywords: "my,list,of,keywords,for,SEO"
+calendly-link: "john-sambrook/30min"
+calendly-text: "Schedule time with John"
 
 defaults:
   -
@@ -48,5 +51,6 @@ defaults:
     values:
       layout: "page"
       header-extra: wave.html
+      after-content: calendly.html
+      show-calendly-btn: true
       share-description: "Common Sense Systems has provided software engineering services to high-tech companies in the Seattle area since 1996."
-

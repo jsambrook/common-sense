@@ -1,0 +1,11 @@
+{% if page.show-calendly-btn and site.calendly-link and site.calendly-text %}
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script>
+Calendly.initBadgeWidget({
+  url: 'https://calendly.com/{{ site.calendly-link }}', 
+  text: '{{ site.calendly-text }}',
+  branding: false
+});
+</script>
+{% endif %}
