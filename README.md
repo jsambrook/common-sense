@@ -1,2 +1,3 @@
-# c1146-common-sense
-Common Sense Systems
+# Common Sense Systems
+
+- edit in _config.yml: `keywords`

@@ -1,0 +1,6 @@
+<div class="inline-img">
+  <img src="{{ include.path | relative_url }}" alt="{{ include.caption }}">
+  {% if include.caption %}
+  <div class="img-caption">{{ include.caption }}</div>
+  {% endif %}
+</div>

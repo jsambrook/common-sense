@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body,
+h1,h2,h3,h4,h5,h6,
+.navbar-custom,
+.post-preview a,
+.post-heading .post-meta,
+.blog-tags,
+#full-tags-list,
+.pagination .page-item .page-link {
+  font-family: Lato;
+}
+
+/* Navbar */
+
+.navbar-custom {
+  padding: 0.75rem 1.5rem;
+  transition: padding 0.5s ease-in-out, background-color 0.2s;
+}
+.navbar-custom .navbar-brand-logo img,
+.navbar-custom.top-nav-short .navbar-brand-logo img, 
+.navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
+  height: 3.125rem;
+}
+.navbar-custom .navbar-brand-logo img:hover {
+  opacity: 0.7;
+}
+.navbar-custom.top-nav-short,
+.navbar-custom.top-nav-short-permanent {
+  background: white;
+}
+
+.navbar-custom .navbar-nav .nav-item {
+  text-transform: none;
+  font-size: 1rem;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  transition: color 0.2s;
+  font-size: 1.125rem;
+  font-weight: normal;
+  letter-spacing: normal;
+  padding: 1.0625rem;
+}
+
+.navbar-custom, .navbar-custom.top-nav-short,
+.navbar-custom.top-nav-short-permanent {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom {
+    padding: 2.25rem max(calc((100% - 1200px) / 2), 40px);
+  }
+
+  .navbar-expand-xl .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+    padding-right: 0.9375rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-custom .navbar-brand-logo img,
+  .navbar-custom.top-nav-short .navbar-brand-logo img, 
+  .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
+    height: 2rem;
+  }
+  .navbar-custom .navbar-collapse {
+    border-top-width: 0;  
+  }
+}
+
+/* Header */
+
+.header-section {
+  background: #F2F2F2;
+}
+
+.intro-header {
+  margin-top: 4.625rem;
+  margin-bottom: 0;
+}
+.intro-header .page-heading {
+  padding-top: 2.25rem;
+  padding-bottom: 1.5rem;
+}
+.intro-header .page-heading h1 {
+  font-size: 2rem;
+}
+.wave-divider {
+  width: 100%;
+  height: 2.5rem;
+}
+
+@media (min-width: 1200px) {
+  .intro-header {
+    margin-top: 7.875rem;
+  }
+  .intro-header .page-heading {
+    padding-top: 5.75rem;
+    padding-bottom: 3.8125rem;
+  }
+  .intro-header .page-heading h1 {
+    font-size: 3.5rem;
+  }
+  .wave-divider {
+    width: 100%;
+    height: 4rem;
+  }
+}
