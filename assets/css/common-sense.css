@@ -29,6 +29,23 @@ p {
   line-height: 1.875rem;
 }
 
+.inline-img {
+  float: right;
+  width: 300px;
+  margin: 1rem 0 1rem 1rem;
+}
+.inline-img .img-caption {
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 575px) {
+  .inline-img {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
 .bigbtn {
   border: 0;
   border-radius: 5px;
