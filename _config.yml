@@ -1,3 +1,5 @@
+baseurl: "/c1146-common-sense"
+
 remote_theme: daattali/beautiful-jekyll
 
 title: Common Sense Systems
