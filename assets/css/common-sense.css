@@ -146,16 +146,16 @@ footer {
   display: flex;
   gap: 2rem;
 }
-#footer-logo {
+#footer-about {
   flex: 5 1 0;
   overflow: auto;
 }
-#footer-logo img {
+#footer-logo {
   float: left;
   width: 8.5rem;
   margin-right: 1rem;
 }
-#footer-logo div {
+#footer-slogan {
   margin-top: 0.5rem;
 }
 #footer-subscribe {
@@ -214,5 +214,30 @@ footer {
 @media (max-width: 991px) {
   #footer-main {
     display: block;
+  }
+  #footer-about {
+    display: flex;
+  }
+  #footer-logo {
+    width: 6.5rem;
+    align-self: start;
+  }
+  #footer-slogan {
+    margin-top: 0;
+  }
+  #footer-subscribe {
+    margin: 2rem 0;
+  }
+}
+
+/* Contact page */
+
+#contact-embed-calendly {
+  height: 1000px;
+}
+
+@media (max-width: 1199px) {
+  #contact-embed-calendly {
+    height: 800px;
   }
 }
