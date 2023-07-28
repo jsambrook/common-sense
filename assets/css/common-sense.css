@@ -11,6 +11,10 @@ h1,h2,h3,h4,h5,h6,
   font-family: Lato;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 3.5rem;
+}
+
 /* Navbar */
 
 .navbar-custom {
@@ -72,6 +76,10 @@ h1,h2,h3,h4,h5,h6,
 
 /* Header */
 
+header {
+  margin-bottom: 1rem;
+}
+
 .header-section {
   background: #F2F2F2;
 }
@@ -97,7 +105,7 @@ h1,h2,h3,h4,h5,h6,
     margin-top: 7.875rem;
   }
   .intro-header .page-heading {
-    padding-top: 5.75rem;
+    padding-top: 5rem;
     padding-bottom: 3.8125rem;
   }
   .intro-header .page-heading h1 {
@@ -114,4 +122,56 @@ h1,h2,h3,h4,h5,h6,
 .calendly-badge-content {
   background: #FF801F;
   color: white;
+}
+
+/* Footer */
+
+footer {
+  font-size: 1.125rem;
+  padding: 0 1rem;
+}
+#footer-main {
+  max-width: 1200px;
+  margin: 3rem auto;
+  display: flex;
+  gap: 2rem;
+}
+#footer-logo {
+  flex: 5 1 0;
+  overflow: auto;
+}
+#footer-logo img {
+  float: left;
+  width: 8.5rem;
+  margin-right: 1rem;
+}
+#footer-logo div {
+  margin-top: 0.5rem;
+}
+#footer-subscribe {
+  flex: 3 1 0;
+}
+#footer-address {
+  flex: 4 1 0;
+}
+
+#footer-copyright {
+  background: black;
+  color: white;
+  font-size: 0.875rem;
+  padding: 0.6rem 1rem;
+  margin: 0 -1rem;
+  text-align: center;
+}
+
+#footer-copyright a {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.35rem;
+}
+
+@media (max-width: 991px) {
+  #footer-main {
+    display: block;
+  }
 }
