@@ -47,4 +47,4 @@ Common Sense Systems reserves the right to modify this privacy policy at any tim
 #### CONTACT INFORMATION
 {: .space-top }
 
-Questions regarding this privacy policy should be directed to Common Sense Systems at [common-sense.com/contact/]({{ '/contact' | relative_url }})).
+Questions regarding this privacy policy should be directed to Common Sense Systems at [common-sense.com/contact/]({{ '/contact' | relative_url }}).
