@@ -11,8 +11,18 @@ h1,h2,h3,h4,h5,h6,
   font-family: Lato;
 }
 
-h1,h2,h3,h4,h5,h6 {
+.space-top {
   margin-top: 3.5rem;
+}
+
+@media (max-width: 1199px) {
+  .space-top {
+    margin-top: 2.5rem;
+  }
+}
+
+p {
+  line-height: 1.875rem;
 }
 
 /* Navbar */
@@ -168,6 +178,37 @@ footer {
   color: white;
   text-decoration: underline;
   text-underline-offset: 0.35rem;
+  transition: color 0.2s;
+}
+
+#footer-copyright a:hover {
+  color: #CCC;
+}
+
+#mce-EMAIL-footer {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #AAAAAA;
+  font-family: Lato;
+  outline-color: #FF801F;
+  margin: 0.25rem 0 1rem;
+  font-size: 1rem;
+}
+
+#mc-embedded-subscribe-footer {
+  color: white;
+  background: #FF8A3D;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.75rem 3rem;
+  transition: all 0.2s;
+}
+
+#mc-embedded-subscribe-footer:hover {
+  transform: scale(1.05);
+  background: #FF6C0A;
 }
 
 @media (max-width: 991px) {
