@@ -28,6 +28,7 @@ share-links-active:
   facebook: true
   linkedin: true
 
+permalink: /blog/:title/
 excerpt_length: 50
 feed_show_excerpt: true
 feed_show_tags: true
@@ -44,6 +45,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "John Sambrook"
+      before-content: author.html
+      after-content:
+        - about-blurb.html
+        - calendly.html
       social-share: true
   -
     scope:

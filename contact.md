@@ -15,7 +15,7 @@ Contact me any time for a relaxed discussion about your needs and to explore if 
 
 If you would like to reach me by email please fill out and submit the form below. I am usually able to reply to your email within a few hours.
 
-<form action="https://formspree.io/f/{form_id}" method="POST" class="form" id="contact-form">
+<form action="https://formspree.io/f/xvojzzga" method="POST" class="form" id="contact-form">
   <div class="row">
     <div class="col-6">
       <input type="email" name="Email" required="required" class="form-control form-control-lg" placeholder="Email" title="Email">
