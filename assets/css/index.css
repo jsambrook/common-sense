@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 body {
   background: #F2F2F2;  
 }
@@ -15,7 +19,7 @@ body {
 #main-cover {
   margin: 0 -15px;
   text-align: center;
-  background: url('/assets/img/stock.jpeg');
+  background: url("{{ '/assets/img/stock.jpeg' | relative_url }}");
   background-size: cover;
   background-position: center;
   position: relative;
