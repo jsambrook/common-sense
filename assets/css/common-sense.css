@@ -25,8 +25,16 @@ h1,h2,h3,h4,h5,h6,
   }
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 p {
   line-height: 1.875rem;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 .inline-img {
@@ -324,7 +332,6 @@ footer {
 
 .all-entries .entry .entry-image {
   margin-bottom: 1rem;
-  border-radius: 0.25rem;
   overflow: hidden;
 }
 

@@ -1,3 +1,7 @@
+body {
+  background: #F2F2F2;  
+}
+
 .navbar-custom {
   background: white;
   border-bottom-width: 0;
@@ -6,4 +10,79 @@
 .navbar-custom.top-nav-short-permanent,
 .navbar-custom.top-nav-expanded {
   border-bottom-width: 1px;
+}
+
+#main-cover {
+  margin: 0 -15px;
+  text-align: center;
+  background: url('/assets/img/stock.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 9rem 1rem 15rem;
+}
+#cover-shield {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  background: black;
+  z-index: 0;
+}
+#cover-unshield {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.main-title {
+  font-size: 3.4rem;
+}
+.main-subtitle {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+#process {
+  background: #d8d8d8;
+  padding: 3rem;
+  margin: 0 -15px;
+}
+
+.process-title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#video-caption {
+  font-style: italic;
+}
+
+#process iframe {
+  margin-top: 2rem;
+}
+
+.all-entries {
+  display: block;
+}
+
+.entry {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  #main-cover {
+    padding: 7rem 1rem 11rem;
+  }
+  .main-subtitle {
+    font-size: 1.4rem;
+  }
+  #process {
+    padding: 2rem 1rem;
+  }
 }
