@@ -2,7 +2,7 @@
 title: "Logic Trees for Sharing Complex Information"
 author: John Sambrook
 tags: [journal, coaching]
-thumbnail: /assets/img/logic-tree.jpeg
+thumbnail-img: /assets/img/logic-tree.jpeg
 ---
 
 {% include inline-img.html path="/assets/img/logic-tree.jpeg" caption="I use logic trees to communicate complex information." %}

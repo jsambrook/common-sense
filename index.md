@@ -1,6 +1,7 @@
 ---
 layout: page
 css: /assets/css/index.css
+full-width: true
 ---
 
 {% include inline-img.html path="/sdf" caption="f" %}

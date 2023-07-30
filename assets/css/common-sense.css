@@ -49,6 +49,7 @@ p {
 .bigbtn {
   letter-spacing: 1px;
   border: 0;
+  display: inline-block;
   border-radius: 5px;
   color: white;
   background: #FF8A3D;
@@ -60,6 +61,24 @@ p {
   transform: scale(1.05);
   background: #FF6C0A;
   color: white;
+  text-decoration: none;
+}
+.secondarybtn {
+  border: 0;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  background: #141f6d;
+  font-size: 0.8rem;
+  padding: 0.75rem 1.25rem;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+.secondarybtn:hover {
+  transform: scale(1.05);
+  background: #0c1241;
+  color: white;
+  text-decoration: none;
 }
 
 #about-blurb {
@@ -287,5 +306,60 @@ footer {
 @media (max-width: 1199px) {
   #contact-embed-calendly {
     height: 800px;
+  }
+}
+
+/* Blog page */
+
+.all-entries {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.all-entries .entry {
+  flex: 0 0 calc(50% - 1rem);
+}
+
+.all-entries .entry .entry-image {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.all-entries .entry .entry-title {
+  font-weight: bold;
+  color: black;
+  font-size: 1.375rem;
+  transition: color 0.2s;
+}
+
+.all-entries .entry .entry-title:hover {
+  text-decoration: none;
+  color: #FF8A3D;
+}
+
+.all-entries .entry .entry-author {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.all-entries .entry .entry-excerpt {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+}
+
+@media (max-width: 575px) {
+  .all-entries {
+    display: block;
+  }
+  .all-entries .entry:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }

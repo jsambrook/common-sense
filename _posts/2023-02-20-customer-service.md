@@ -2,7 +2,7 @@
 title: "Customer Service – It's an Asset, Not a Liability"
 author: John Sambrook
 tags: [journal]
-thumbnail: /assets/img/nordstrom.jpg
+thumbnail-img: /assets/img/nordstrom.jpg
 ---
 
 ![Nordstrom]({{ '/assets/img/nordstrom.jpg' | relative_url }})

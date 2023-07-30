@@ -2,7 +2,7 @@
 title: "IEC 62304 Checklist"
 author: John Sambrook
 tags: [journal]
-thumbnail: /assets/img/standards.jpg
+thumbnail-img: /assets/img/standards.jpg
 ---
 
 ![Standards]({{ '/assets/img/standards.jpg' | relative_url }})

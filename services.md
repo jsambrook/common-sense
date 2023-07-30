@@ -22,7 +22,7 @@ More information on Common Sense is also [available]({{ '/about-us' | relative_u
 
 When I’m working more as a coach I see my role as providing the client with a perspective they would not otherwise have. To my knowledge most coaches take this approach. My interest is in connecting with my clients to understand and discuss with them what they want to accomplish, and then I work with them to develop observations and suggestions that they can try on for size or ignore as they see it.
 
-You might enjoy this short video on coaching by Dr. Atul Gawande.
+You might [enjoy this short video]({{ '/blog/get-great-get-a-coach' | relative_url }}) on coaching by Dr. Atul Gawande.
 
 ## MY ROLE AS AN INDIVIDUAL CONTRIBUTOR
 {: .space-top }
