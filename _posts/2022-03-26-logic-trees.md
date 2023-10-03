@@ -9,7 +9,10 @@ thumbnail-img: /assets/img/logic-tree.jpeg
 
 In my work with clients I often have to share complex information. I use logic trees to good effect in doing this.
 
-I was in a virtual meeting with a client the other day. The intent of the meeting was to discuss how to improve one of the client’s business systems. I had complex information that I wanted to communicate quickly and well.
+I was in a virtual meeting with a client the other day. The intent of
+the meeting was to discuss how to improve one of the client’s business
+systems. I had complex information that I wanted to communicate
+quickly and well.
 
 I prepared for the meeting by developing a few logic trees.
 
@@ -47,4 +50,3 @@ Logic diagrams are just the starting point. They are great for helping people to
 I sometimes think about an organization that maintains a database of its truth claims and the logic connecting them. The database can be reviewed and updated in team meetings or independently. Such a tool would be great for creating alignment within the group and for avoiding misunderstandings and disagreements.
 
 If you would like to know more about using logic trees for better communication, please feel free to [contact me]({{ '/contact' | relative_url }}). I love helping people improve their ability to process complex information.
-
