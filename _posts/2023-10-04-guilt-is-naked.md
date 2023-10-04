@@ -2,7 +2,7 @@
 title: "Guilt Is Naked"
 author: John Sambrook
 tags: [journal, coaching]
-thumbnail-img: /assets/img/logic-tree.jpeg
+thumbnail-img: /assets/img/quote-software-engineering-ellen-ullman.jpg
 ---
 
 {% include inline-img.html path="/assets/img/quote-software-engineering-ellen-ullman.jpg" caption="Software engineering is not about right and wrong but only better and worse" %}
@@ -18,9 +18,7 @@ these mistakes may help you.
 
 I cringed when this message appeared in the group chat the other day:
 
-*I don’t have the heart to tell <Executive> that we haven’t used*
-*<Expensive Software Tool> since we licensed it a year ago and now we*
-*need to renew the license!*
+*I don’t have the heart to tell Joe that we haven’t used PC-Lint since we licensed it a year ago and now we need to renew the license!*
 
 My colleague was clearly feeling a little bit guilty and responsible
 for this situation. No doubt you've seen similar situations in your
@@ -99,7 +97,7 @@ long term feelings of guilt that you might be carrying.
 
 ### Additional Resources
 
-#### Robert Sapolsky
+#### Researchers
 
 [Robert Sapolsky](https://en.wikipedia.org/wiki/Robert_Sapolsky)
 is a renowned neuroscientist and primatologist, best known for his
