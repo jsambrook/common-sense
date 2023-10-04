@@ -5,7 +5,7 @@ tags: [journal, coaching]
 thumbnail-img: /assets/img/logic-tree.jpeg
 ---
 
-{% include inline-img.html path="/assets/img/logic-tree.jpeg" caption="I use logic trees to communicate complex information." %}
+{% include inline-img.html path="/assets/img/quote-software-engineering-ellen-ullman.jpg" caption="Software engineering is not about right and wrong but only better and worse" %}
 
 ## Guilt is Naked
 
