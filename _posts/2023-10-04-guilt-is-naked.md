@@ -2,10 +2,12 @@
 title: "Guilt Is Naked"
 author: John Sambrook
 tags: [journal, coaching]
-thumbnail-img: /assets/img/quote-software-engineering-ellen-ullman.jpg
+thumbnail-img: /assets/img/hand-in-cookie-jar.jpg
 ---
 
+<!--
 {% include inline-img.html path="/assets/img/quote-software-engineering-ellen-ullman.jpg" caption="Software engineering is not about right and wrong but only better and worse" %}
+-->
 
 ## Guilt is Naked
 
