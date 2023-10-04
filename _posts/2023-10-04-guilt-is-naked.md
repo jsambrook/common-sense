@@ -18,7 +18,7 @@ these mistakes may help you.
 
 I cringed when this message appeared in the group chat the other day:
 
-*I don’t have the heart to tell Joe that we haven’t used PC-Lint since we licensed it a year ago and now we need to renew the license!*
+*I don’t have the heart to tell [Executive] that we haven’t used [Expensive Tool] since we licensed it a year ago and now we need to renew the license!*
 
 My colleague was clearly feeling a little bit guilty and responsible
 for this situation. No doubt you've seen similar situations in your
@@ -81,19 +81,12 @@ series of preceding events beyond his control. And he'd be correct.
 
 ### Conclusion
 
-I'm not saying you should never feeling guilty, even if that were
-possible. Guilt has its place and we would not have it as a capacity
-if it wasn't adaptive.
+It's not possible to stop feelings of guilt from coming up from time
+to time. It is possible to train yourself to recognize these feelings
+do come up and to then redirect your thinking when it happens.
 
-At the same time, it's important to understand that there is no logical
-basis for feeling guilty.
-
-Guilt has its place; it's a human emotion that serves a
-purpose. However, that purpose is seldom what our minds conjure up
-when we try to rationalize our feelings of guilt.
-
-You will be more successful and happier if you can shake off any
-long term feelings of guilt that you might be carrying.
+Knowing that guilt ultimately has no foundation can help you to avoid
+dwelling on past mistakes.
 
 ### Additional Resources
 
@@ -110,11 +103,6 @@ than commonly believed, shaped by a complex interplay of genetics,
 environment, and biochemical processes. He contends that our
 understanding of "free will" may be more of an illusion, challenging
 traditional notions of individual responsibility and moral agency.
-
-The feeling of guilt, while sometimes a useful emotional signal, can
-have a range of negative impacts when it becomes chronic or
-excessive. Here are some articles and TED Talks that explore the
-downsides of guilt:
 
 #### Articles:
 
@@ -143,5 +131,3 @@ downsides of guilt:
 
 4. **[How to Practice Emotional First Aid by Guy Winch](https://www.ted.com/talks/guy_winch_how_to_practice_emotional_first_aid)**
    - This talk discusses the importance of addressing emotional wounds, including guilt, for overall well-being.
-
-These resources offer a nuanced look at the negative aspects of guilt, providing insights into how it can be both mentally and physically damaging when not properly managed.
