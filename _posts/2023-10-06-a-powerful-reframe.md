@@ -2,7 +2,7 @@
 title: "A Powerful Reframe"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/hand-in-cookie-jar.jpg
+thumbnail-img: /assets/img/no-fear.jpg
 ---
 
 ## My Most Powerful Reframe
@@ -10,12 +10,12 @@ thumbnail-img: /assets/img/hand-in-cookie-jar.jpg
 I'm heading off to the TOCICO 2023 Innovation Summit in Fort
 Lauderdale, Florida tomorrow. I have attended Theory of Constraints
 conferences for 30 years. For me, it's a great way to spend time with
-the people I consider to be my tribe. They are different since we lost
+the people of my tribe. The conferences are different since we lost
 Eli Goldratt in 2011, yet they are still deeply satisfying to me.
 
 At the conference this year, I hope to have some discussions with my
 colleagues about a reframe that I have been using for several years
-now. It's the most powerful reframe I have ever experienced and it's
+now. It's the most useful reframe I have ever experienced and it's
 improved my life dramatically.
 
 ### What's a Reframe?
