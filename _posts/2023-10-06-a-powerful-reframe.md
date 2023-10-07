@@ -42,7 +42,7 @@ more positive outlook.
 
 ### My Old Frame
 
-In the example I'm discussion, my old frame went like this:
+For most of my life my old frame went like this:
 
 "I can be harmed by the things that happen to me. People can hurt
 me if I'm not careful, so I need to be on guard for those situations.
@@ -71,6 +71,10 @@ different ways of showing up in your life and causing damage.
 My new frame, which I didn't come to immediately, is "I cannot be
 harmed by anything that happens to me."
 
+Pretty bold statement, I know. You might be thinking "Yeah, right."
+Nevertheless, this is my deep belief, and it's had a profound effect
+on my life.
+
 If you're a Theory of Constraints geek like I am, you might notice how
 the new frame is essentially a perfect inversion of my old frame. How
 often, when we use the TOC Thinking Processes, do we take an
@@ -80,8 +84,8 @@ it and then figure out how to make it your reality. Trim the wings of
 that flying pig!
 
 In reality, a reframe doesn't absolutely have to be true to be
-useful. So if find the reframe hard to accept, you can still try it on
-for size.
+useful. So if you find this reframe hard to accept, you can still try
+it on for size.
 
 People sometimes make fun of "Daily Affirmations," as if they are some
 kind of feel-good psychobabble. I have found something different: When
@@ -94,10 +98,10 @@ exact steps. You can of course take your own, and if this kind of
 stuff interests you, please do. Just know that you don't have to be
 able to prove the reframe literally true to benefit from it.
 
-So, consider standing in front of your bathroom mirror once a day
-for five days. Repeat the reframe slowly and meaningfully ten times
-or so. Give yourself a few minutes to do this. It might feel odd at
-first, but just do it. No one is going to know!
+Consider standing in front of your bathroom mirror once a day for five
+days. Repeat the reframe slowly and meaningfully ten times or so. Give
+yourself a few minutes to do this. It might feel odd at first, but
+just do it. No one is going to know!
 
 ### Resources
 
