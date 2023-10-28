@@ -19,7 +19,9 @@ this:
    intelligence of the development team. Different individuals bring
    diverse perspectives to the codebase. This diversity in thinking
    can uncover defects that automated testing tools may overlook. A
-   study published in "Empirical Software Engineering" by V. Basili et
+   study published in 
+   ["Empirical Software Engineering"](https://www.researchgate.net/publication/43185049_Foundations_of_Empirical_Software_Engineering_The_Legacy_of_Victor_R_Basili)
+   by V. Basili et
    al. in 2012 supports this by highlighting that code inspections (a
    form of code review) can discover up to 85% of software defects.
 
@@ -33,15 +35,17 @@ this:
    understanding of the application's context and business logic.
    This contextual awareness is invaluable for identifying defects
    related to functionality, security, and compliance. Research by
-   D. E. Perry and A. L. Wolf in their paper "Foundations for the
-   Study of Software Architecture" (1992) emphasizes the significance
+   D. E. Perry and A. L. Wolf in their paper 
+   ["Foundations for the Study of Software Architecture"](https://dl.acm.org/doi/10.1145/141874.141884)
+   (1992) emphasizes the significance
    of understanding the architecture and design context when
    identifying defects.
 
 4. **Cost Efficiency**: Early defect detection through code reviews
    can significantly reduce the cost of fixing issues in later stages
    of development or after deployment. A report by IBM Systems
-   Sciences Institute titled "Costs of Correcting Software Errors"
+   Sciences Institute titled [
+   "Relative Costs of Fixing Defects"](https://www.researchgate.net/figure/IBM-System-Science-Institute-Relative-Cost-of-Fixing-Defects_fig1_255965523)
    demonstrates that identifying and rectifying defects during coding
    is far more cost-effective than addressing them in post-production
    phases.
@@ -49,11 +53,11 @@ this:
 Code reviews harness human insight, promote knowledge sharing, offer
 contextual understanding, and enhance cost efficiency. They are an
 essential practice for maintaining software quality and align with a
-dedication to excellence.
+dedication to excellence in software engineering.
 
-https://www.researchgate.net/publication/43185049_Foundations_of_Empirical_Software_Engineering_The_Legacy_of_Victor_R_Basili
 
-https://dl.acm.org/doi/10.1145/141874.141884
 
-https://www.researchgate.net/figure/IBM-System-Science-Institute-Relative-Cost-of-Fixing-Defects_fig1_255965523
+
+
+
 
