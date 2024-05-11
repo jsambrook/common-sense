@@ -58,6 +58,8 @@ Often, tractors fail to go the distance. They start spinning their
 wheels, there is a lot of smoke and flames from the tractor's exhaust,
 and eventually the driver of the tractor has no choice but to give up.
 
+Click on the image for some spectacular failed tractor pull runs:
+
 [![Tractor pull fails](http://img.youtube.com/vi/728EEeKgFjo/0.jpg)](http://www.youtube.com/watch?v=728EEeKgFjo "Tractor Pull Fails")
 
 So bottom line, it's important to make sure that your workload over
