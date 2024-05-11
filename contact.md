@@ -34,4 +34,3 @@ If you would like to reach me by email please fill out and submit the form below
 You can also schedule a meeting with me for a discussion. Please fill out the information below to book a meeting with me at a time that is convenient for you.
 
 <iframe id="contact-embed-calendly" src="https://calendly.com/john-sambrook/60-minute-meeting?embed_domain=common-sense.com&amp;embed_type=Inline" width="100%" height="100%" frameborder="0"></iframe>
-
