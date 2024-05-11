@@ -2,7 +2,7 @@
 title: "Make Your TODO:'s Visible"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/no-fear.jpg
+thumbnail-img: /assets/img/michael-scott-grimacing.jpg
 ---
 
 In the world of software and firmware development, it's pretty common
@@ -43,16 +43,16 @@ end up concealing a substantial amount of work. If higher-ups aren’t
 aware of these tasks, they're in for a surprise—and usually, surprises
 in this context don’t lead to good outcomes.
 
-Second, as projects progress the workload often increases, to the point 
+Second, as projects progress the workload often increases, to the point
 where the project runs a very real risk of bogging down and flaming out.
 
-An analogy I like to use is a "tractor pull." A tractor pull is an event, 
+An analogy I like to use is a "tractor pull." A tractor pull is an event,
 often held at county fairs, where people bring high-powered farm tractors
 to a racetrack and compete to see who can pull a "sled" behind the tractor
 for the whole length of the track (a "full pull.")
 
 The thing is, the sled is designed to get harder and harder to pull the
-further the tractor goes down the track. 
+further the tractor goes down the track.
 
 Often, tractors fail to go the distance. They start spinning their
 wheels, there is a lot of smoke and flames from the tractor's exhaust,
