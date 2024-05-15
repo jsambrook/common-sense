@@ -3,6 +3,7 @@ title: "A Powerful Reframe"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/no-fear.jpg
+published: false
 ---
 
 I'm heading off to the TOCICO 2023 Innovation Summit in Fort

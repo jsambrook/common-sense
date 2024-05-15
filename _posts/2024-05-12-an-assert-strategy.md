@@ -3,7 +3,7 @@ title: "An Effective Strategy For Using Asserts in Code"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/pc-bite.jpg
-published: true
+published: false
 ---
 
 # Assertion Checking
