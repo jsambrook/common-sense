@@ -182,13 +182,78 @@ When you're running your software under the control of a debugger, you
 can set a breakpoint on the function that the `assert` macro calls
 when an assertion failure occurs. That is often great, because you
 have access to the state of the whole program and the debugger to
-inspect it.
+inspect it when it asserts.
 
-In the case of production, your software will typically crash. When it
-does, you want it to leave some clues as to why it crashed, Ofen, this
-will be the source file name and line number of the failed assert, and
-perhaps a textual representation of the conditional expression that
-triggered the assert.
+In production builds an assertion failure usually causes a program
+crash. You'll want to make sure that when your production code does
+assert, it reports the location of the failed assert, often in the
+form of a source file name and source file line number. It is often
+possible to arrange for a textual representation of the conditional
+that caused the assert to be printed. Bottom line, you need to be able
+to go from the information reported in the crash to the location of
+the assert in your code.
+
+## A Key Assumption
+
+It's often claimed that you should turn off asserts in your production
+builds. I have never found a good reason for doing this. Here's why.
+
+If there is a concern that you software might assert while a customer
+is using it, you're not doing enough testing of the software before
+releasing it.
+
+You might not be doing enough testing because you have not made an
+investment in building systems that will help you to test it. This is
+an area of interest for me: Building practical systems for testing
+embedded systems thoroughly before releasing them to customers.
+
+I have built embedded test frameworks that supported a large number
+of high-end medical ultrasound systems. By large number, I mean 30
+or so, but it could have been scaled even higher if necessary.
+
+Each ultrasound system under test was connected to a JTAG emulator and
+also had a serial line connection to a host controller. Through the
+JTAG connection we could completely control the Unit Under Tests
+(UUT). We could flash new code, reboot the system, save a core image
+when the system crashed, etc. Through the serial line, we could inject
+commands for the system to run. With the test scripts we wrote to
+drive the UUT through its paces, we could explore any system states we
+wished. We could also save screen images from the UUT for image
+analysis, including OCR.
+
+The above might seem like overkill, but it was a key component of the
+engineering department for this company that went from startup to a
+billion dollar company in about twenty years.
+
+So the key point is this: It's fine to ship production code with
+assertion checking enabled as long as you test it well enough that
+having a customer experience an assertion failure is a truly rare
+event.
+
+## Bottom Line
+
+Your success as a software engineer hinges, in part, on improving
+your reputation as someone who is effective and reliable. You can
+greatly improve your software by ensuring that as it runs, it is
+constantly checking to see if the assumptions you had in mind when
+you wrote it are still valid.
+
+If the program is going off the rails, it will serve you and your
+colleagues to have it fail in a highly obvious way as early as
+possible. These programs as the easiest and fastest to debug.
+
+Programs that rumble on with undiagnosed internal inconsistencies
+before they finally either fall over or display nonsense answers
+to customers are not only difficult and painful to debug, they
+also do damage in many other ways, seen and unseen.
+
+Assertion checking is a technique that, used properly, will
+greatly improve your effectiveness as a software engineer.
+
+Asserts help you do this. I hope you'll consider experimenting with
+them if you're not already using them. Let me know if you need help
+creating a highly effective solution for you and your colleagues.
+This work a
 
 
 
@@ -201,165 +266,3 @@ triggered the assert.
 
 
 
-
-
-
-
-
-
-
-This article will help you improve how you write software. It will
-help you to write software that contains fewer errors and, when you
-have errors in your software, you'll find and fix them more quickly.
-
-If you understand this article and use assertion checking in your
-code, it's likely that you'll become hooked and not want to write
-software without assertions in the future.
-
-Ultimately, this is all about helping you and other developers to
-write the best software in the world.
-
-Aim high!
-
-## Assertions
-
-
-<!--
-In 1997 my client was Advanced Technology Labs in Bothell, WA. I was
-asked to help with some work with ClearCase, a version control system
-that was popular at the time. After working with them for a couple of
-months they asked me to remain and help with the development of the
-firmware for a new ultrasound system. Together we made it a win-win
-deal and they continue as my client for many years.
-
-One of the things I did along with the firmware lead (Bob Alexander)
-was to develop a strategy or policy for using assertion checking on
-the project. We were fortunate that the project was a green field (no
-existing code) project, so we could work out whatever policies we
-thought would be best.
-
-We started with a decision to build the software in C++. The state of
-C++ at that time was mostly that you could use it as a "better C." We
-did that and a little more, in that we did do an object-oriented
-software design while trying to avoid being on the bleeding edge of
-C++ development.
-
-We were using the MetaWare C++ compiler for the ARM7TDMI core we were
-using. At that time you had to roll your own board support package.
-That was my job, along with writing parts of the language runtime that
-weren't supported in the MetaWare compiler at the time. The MetaWare
-compiler was a good compiler, and their support was good too. It's
-just that it was "early days" for C++ on embedded platforms.
-
-In this article, I want to focus on the strategy I developed for using
-assertion checking in our code. At the time, it seemed like a
-controversial approach. Over time, it's proven to be a very good
-approach.
-
-# Assertion Checking Basics
-
-Assertions ("asserts") are executable statements that can be inserted
-in software. An assert is typically a macro that takes a conditional
-expression. It's often the case that an assert statement will take
-some additional arguments that provide information for use when the
-assert fails. In desktop software, the assert statement takes only a
-conditional expression. In the strategy I describe here, the assert
-statement took a second argument, an unsigned 32 bit integer. More
-about that later.
-
-When an assert statement executes it evaluates the conditional
-expression passed to it. If the expression evaluates to true
-(non-zero, in C) the assert simply returns. If the expression
-evaluates to false, then an "assertion failure" has occurred and the
-assert routine handles the failed assert.
-
-If assert statements are being used correctly on a project, an
-assertion failure ("an assert") means that something is drastically
-wrong. The executing program cannot diagnose exactly what has gone
-wrong. In some sense, all it really knows is that the expression that
-was supposed to evaluate to true actually evaluated to false.
-
-# When to Use Asserts
-
-Let's discuss how to use asserts in your software.
-
-You use an assert statement when you are coding and you reach a point
-where something must be true, or, if it's not, there is somethign
-wrong with the logic of your program or the hardware on wich your
-program is running.
-
-For example, let's assume a simple routine written in C that is going
-to fetch a value from a particular location in memory. Maybe it's the
-address of a control register for a given bus controller, or something
-like that.
-
-You might have a routine like this:
-
-```
-
-//
-// Initialize the system I2C controller. The controller's base address
-// is given by base_addr. Return the status of the initialization operation.
-//
-status_code_t I2C_Initialize(uint32_t *base_addr) {
-    assert(NULL != base_addr);
-
-    ...
-
-    return STATUS_SUCCESS;
-}
-```
-
-In this example, the routine I2C_Initialize() is expecting to be
-passed a pointer to the base of the controller's control
-registers. That pointer has to be a valid one that can be
-dereferenced. While the routine cannot completely validate the pointer
-it is given, it can at least check to see to that is not obviously
-invalid. In C, on most platforms, dereferencing a NULL pointer will
-cause a bus error or other error condition. In embedded code, you
-might have a need to write to location zero in memory, but even that
-is pretty unlikely.
-
-What is much more likely is that I2C_Initialize() will be called with
-`base_addr` being NULL. Could be a simple coding error, or maybe some
-kind of memory corruption has occurred and the caller's idea of where
-the I2C controller is located in memory has been corrupted.
-
-If I2C_Initialize() is called with a NULL pointer, the assert
-statement will catch it and begin executing the code for dealing with
-an assertion failure.
-
-This is what we want. In a sense, the function I2C_Initialize() comes
-with a usage contract. "If you do this, I'll do that."
-
-In this case, if we pass the function a valid pointer, it will go on
-to properly initialize the I2C controller. But if we pass it a NULL
-pointer, it will assert. Perfect.
-
-So, to summarize, you use assert statements when you want to test
-something about the state the executing program at a particular place
-in the code and that state is not something you would otherwise expect
-during the normal operation of the program.
-
-# When Not to Use Asserts
-
-There are times when you might think you should use an assert, but in
-fact, you should not.
-
-For example, if the software is trying to open a file and cannot do so
-for some reason, that's typically not a situation where you would code
-an assert. Programs should not crash, for example, just because the
-user mistypes a file name or tries to select an option that is not
-available.
-
-In these cases, you would use what most software engineers would call
-normal error handling.
-
-Another case would be errors that don't happen often, but could happen
-rarely. For example, let's say you have an A-to-D converter on a SPI
-bus in your device. You don't expect SPI bus errors in normal use, but
-they could happen, and if they did, you might just retry the operation
-if you can prove that doing so will be safe from other, unintended
-side-effects.
-
--->
