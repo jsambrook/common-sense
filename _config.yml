@@ -41,7 +41,7 @@ markdown: kramdown
 highlighter: rouge
 paginate: 6
 
-calendly-link: "john-sambrook/30min"
+calendly-link: "john-sambrook/60-minute-meeting"
 calendly-text: "Schedule time with John"
 
 kramdown:
