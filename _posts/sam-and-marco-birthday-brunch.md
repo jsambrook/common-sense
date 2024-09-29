@@ -3,6 +3,7 @@ title: "Sam and Marco: Birthday Brunch"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/sam-and-marco-brunch.jpg
+published: true
 ---
 
 “So, Marco, how are things at MedTech?” asked Sam.
