@@ -5,7 +5,7 @@ tags: [journal]
 thumbnail-img: /assets/img/code-on-fire.jpg
 ---
 
-![Nordstrom]({{ '/assets/img/code-on-fire.jpg' | relative_url }})
+![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
 # The Case for Keeping Assertions Enabled in Medical Device Code
 
