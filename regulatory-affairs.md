@@ -146,11 +146,10 @@ Choosing our software lifecycle process service offers:
 {% include inline-img.html path="/assets/img/why-choose-us.jpeg" caption="We're committed to your regulatory success." %}
 -->
 
-- 27+ years of industry experience
+- In-depth industry experience
 - Expert knowledge of key medical device standards
 - Tailored solutions to meet your specific needs
 - Commitment to quality and compliance
-- Proven track record of successful regulatory submissions
 
 ## HOW TO REACH US
 {: .space-top }
