@@ -7,7 +7,6 @@ thumbnail-img: /assets/img/code-on-fire.jpg
 
 ![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
-XXX
 As a developer working on safety-critical systems, particularly
 medical devices, I often find myself in discussions about best
 practices for code safety and reliability. One topic that frequently
