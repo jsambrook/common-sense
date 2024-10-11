@@ -3,7 +3,7 @@ layout: page
 title: Medical Device Regulatory Affairs Services
 ---
 
-![Regulatory Affairs]({{ '/assets/img/regulatory-affairs.jpeg' | relative_url }})
+![Regulatory Affairs]({{ '/assets/img/regulatory-affairs.jpg' | relative_url }})
 
 ## WHO WE ARE
 
