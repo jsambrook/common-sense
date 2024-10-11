@@ -4,9 +4,10 @@ author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/code-on-fire.jpg
 ---
-![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
-# The Case for Keeping Assertions Enabled in Medical Device Code
+# Keeping Assertions Enabled in Medical Device Code
+
+![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
 As a developer working on safety-critical systems, particularly
 medical devices, I often find myself in discussions about best
@@ -69,7 +70,7 @@ SPI initialization fails safely if any unexpected conditions occur,
 rather than trying to initialize an SPI device with invalid
 parameters.
 
-# The Argument Against Assertions in Production Code
+## The Argument Against Assertions in Production Code
 
 The common argument I hear is that assertions should be turned off
 when shipping a product. The reasoning usually goes something like
@@ -79,7 +80,7 @@ this:
 2. If the code is well-tested, assertions shouldn't be necessary in production.
 3. An assertion failure could cause the program to crash, potentially at a critical moment.
 
-# Why I Disagree
+## Why I Disagree
 
 While these points have merit in some contexts, they don't hold up for
 medical device software. Here's why:
@@ -112,7 +113,7 @@ While we strive for comprehensive testing, no testing regime is
 perfect. Assertions act as a last line of defense against unforeseen
 issues or edge cases that slipped through testing.
 
-# The Reputational Concern
+## The Reputational Concern
 
 One common reason for turning off assertions in production is a fear
 that assertion failures in the field will damage the company's
@@ -138,15 +139,16 @@ damaging to a company's reputation than one that safely shuts down
 when it detects a problem. Patients and healthcare providers rely on
 these devices to work correctly, and that trust is paramount.
 
-# A Real-World Example
+## A Real-World Example
 
 Consider a radiation therapy machine. If there's the slightest hint
 that something's wrong with the code controlling dose delivery, it's
-infinitely better for the machine to crash than to risk delivering an
-incorrect dose. The consequences of continuing with compromised
-software integrity could be catastrophic.
+infinitely better for the machine to crash in a controlled way than to
+continue running and deliver an incorrect dose of radiation. The
+consequences of continuing to try to run when it's known that the
+software is somehow compromised could easily be catastrophic.
 
-# Best Practices
+## Best Practices
 
 While I advocate for keeping assertions enabled, it's important to use
 them judiciously and in conjunction with other safety practices:
@@ -161,7 +163,7 @@ them judiciously and in conjunction with other safety practices:
 
 5. Clearly document your assertion strategy and train people on it.
 
-# Conclusion
+## Conclusion
 
 In the world of medical device software, the cost of a crash is almost
 always less than the potential cost of continuing to operate with
@@ -177,16 +179,3 @@ me through my website.
 Remember, in safety-critical systems, it's not just about writing
 code—it's about saving lives.
 
-XXX
-
-Article: [Nordstrom's Customer Service Is The Definition of Above & Beyond](https://sharpencx.com/blog/nordstrom-customer-service/)
-
-Article: [How Nordstrom Made Its Brand Synonymous With Customer Service (and How You Can Too)](https://www.shopify.com/retail/119531651-how-nordstrom-made-its-brand-synonymous-with-customer-service-and-how-you-can-too)
-
-In the following video I share some thoughts about the customer service function inside a typical, high-tech firm that sells a high-margin, complex product to technically sophisticated customers. It may give you some thoughts about how you provide customer service in your organization.
-
-I want you and your business to be successful and highly profitable. Do me a solid and let me know if I’m succeeding or failing in that mission!
-
-<div class="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VQBiOrBiJ5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
