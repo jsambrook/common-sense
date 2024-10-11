@@ -7,16 +7,13 @@ title: Medical Device Regulatory Affairs Services
 
 ## WHO WE ARE
 
-Common Sense Systems, Inc. has been providing expert regulatory
-affairs services to the medical device industry since 2008. Located in
-Kirkland, WA, our team is led by professionals with decades of medical
-device development experience.
+Common Sense has been providing regulatory affairs and compliance
+engineering services to the medical device industry since 2008.
 
-More information on Common Sense Systems is also [available]({{
-'/about-us' | relative_url }}).
+Located in Kirkland, WA, our team includes professionals with decades
+of relevant medical device development experience.
 
 ## OUR EXPERTISE
-{: .space-top }
 
 We specialize in a wide range of regulatory standards and processes,
 including:
@@ -144,9 +141,10 @@ Choosing our software lifecycle process service offers:
 - Reduced risk of software-related issues and recalls
 
 ## WHY CHOOSE US
-{: .space-top }
 
+<!--
 {% include inline-img.html path="/assets/img/why-choose-us.jpeg" caption="We're committed to your regulatory success." %}
+-->
 
 - 27+ years of industry experience
 - Expert knowledge of key medical device standards
@@ -161,7 +159,3 @@ Ready to ensure your medical devices meet all regulatory requirements?
 [Contact us]({{ '/contact' | relative_url }}) today to discuss how we
 can support your regulatory affairs needs.
 
-Common Sense Systems, Inc.
-Kirkland, WA
-Phone: [Your Phone Number]
-Email: [Your Email Address]
