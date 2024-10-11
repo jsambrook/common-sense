@@ -18,10 +18,6 @@ More information on Common Sense Systems is also [available]({{
 ## OUR EXPERTISE
 {: .space-top }
 
-{% include inline-img.html path="/assets/img/expertise.jpeg"
-caption="Our team has extensive experience in medical device
-regulations." %}
-
 We specialize in a wide range of regulatory standards and processes,
 including:
 
@@ -32,8 +28,6 @@ including:
 
 ## OUR SERVICES
 {: .space-top }
-
-{% include inline-img.html path="/assets/img/services.jpeg" caption="We offer comprehensive regulatory affairs services." %}
 
 Common Sense Systems, Inc. offers comprehensive regulatory affairs
 services to ensure your medical devices meet all necessary compliance
