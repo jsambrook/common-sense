@@ -2,11 +2,10 @@
 title: "An Opinionated Assertion Checking Strategy"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/code-in-flames.jpg
+thumbnail-img: /assets/img/code-on-fire.jpg
 ---
 
-
-![Nordstrom]({{ '/assets/img/nordstrom.jpg' | relative_url }})
+![Nordstrom]({{ '/assets/img/code-on-fire.jpg' | relative_url }})
 
 # The Case for Keeping Assertions Enabled in Medical Device Code
 
