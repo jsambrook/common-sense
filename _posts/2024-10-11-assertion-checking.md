@@ -1,23 +1,19 @@
 ---
-title: "An Opinionated Assertion Checking Strategy"
+title: "Ship With Asserts Enabled"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/code-on-fire.jpg
 ---
-
-# Ship With Assertions Enabled
 
 ![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
 As a developer working on safety-critical systems, particularly
 medical devices, I often find myself in discussions about best
 practices for code safety and reliability. One topic that frequently
-comes up is the use of assertions in production code. Today, I want to
-share my perspective on why I believe keeping assertions enabled in
-shipped medical device code is not just acceptable, but often
-necessary.
+comes up is the use of assertion checking ("asserts") in production
+code. In this article I share my thinking on why you should do this.
 
-## The Hard Core Approach
+## It's Controversial
 
 I'm hard core when it comes to using assertion checking in my code. I
 use them frequently in my code to validate my assumptions about the
