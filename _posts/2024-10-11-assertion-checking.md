@@ -308,120 +308,38 @@ indicates the location of the assert statement in the code. This might
 be source file and line number, or an ever-increasing integer code
 that never is reused in the code base.
 
-## The Argument Against Assertions in Production Code
+## Summary
 
-The common argument I hear is that assertions should be turned off
-when shipping a product. The reasoning usually goes something like
-this:
+The bottom line is this. Doing assertion checking well in your medical
+device software benefits everyone. I suggest considering the following
+points:
 
-1. Assertions add overhead and can impact performance.
-2. If the code is well-tested, assertions shouldn't be necessary in
-   production.
-3. An assertion failure could cause the program to crash, potentially
-   at a critical moment.
+1. Handling assertion failures
 
-## How I See It
+You'll need to decide how the system should respond when an assertion
+failure occurs. That might be via a controlled crash or something more
+elaborate may be needed.
 
-While these points may have merit in some contexts, they don't hold up
-for medical device software. Here's why:
+2. Ship only thoroughly tested software
 
-1. Safety First
+The answer to "We don't want it to assert in front of a customer" is
+that you must thoroughly test the software to be shipped. There is no
+cheat code for avoiding the need to do this.
 
-In a medical device, safety is paramount. My experience is with
-devices that are of a moderate or high level of concern. If the
-device has the ability to help you it also has the ability to hurt
-you if it does not operate properly.
+3. Train developers to use assertion checking properly
 
-An assertion failure, by halting the system in a highly visible way,
-tells us immediately that something is horribly wrong. We've made an
-incorrect assumption in the code or a hardware failure has occurred.
-
-2. Undefined Behavior is Worse Than Crashing
-
-If an assertion would have failed but was disabled, the code continues
-to run in what amounts to an undefined state. In a medical device, this
-is unacceptable. It could easily result in patient or operator harm.
-If a device finds itself in this situation, it's always better to signal
-a serious failure than to try to soldier on pretending all is well.
-
-3. High-Priority Fixes
-
-An assertion failure in the field is (or should be) a high-priority
-issue for any medical device manufacturer. It may trigger a Corrective
-and Preventive Action (CAPA) process or even a recall. While no one
-wants this to happen, assertion failures in the field are indisputable
-evidence that something unepected has happened and needs to be
-investigated.
-
-4. Thorough Testing Isn't Perfect
-
-While we strive for comprehensive testing, no testing regime is
-perfect. Assertions act as a last line of defense against unforeseen
-issues or edge cases that slipped through testing.
-
-## The Reputational Concern
-
-A common reason for turning off assertions in production is a concern
-that assertion failures in the field will somehow damage the company's
-reputation.
-
-I see it differently.
-
-If the code is well-tested and robust, assertion failures in
-production code will be extremely rare. If the code is not well tested
-and robust, clearly, it's not ready to ship.
-
-Of course assertion failures can also be triggered by code running on
-broken hardware. In such cases, the assertion is doing what we want by
-preventing the software from operating with faulty hardware.
-
-Software that continues to run past a point where an assertion would
-have failed (because assertions were disabled) is likely to exhibit
-strange, buggy behavior. This can lead to even worse reputational
-damage to a company than a clean crash and halt.
-
-A medical device that's operating incorrectly is far more damaging to
-a company's reputation than one that safely shuts down when it detects
-a problem. Patients and healthcare providers rely on these devices to
-work correctly. It's important to protect that trust.
-
-## A Real-World Example
-
-Consider a radiation therapy machine. If there's the slightest hint
-that something's wrong with the code controlling dose delivery, it's
-infinitely better for the machine to crash in a controlled way than to
-continue running and deliver an incorrect dose of radiation. The
-consequences of continuing to try to run when it's known that the
-software is somehow compromised could easily be catastrophic.
-
-## Best Practices
-
-While I advocate for keeping assertions enabled, it's important to use
-them judiciously and in conjunction with other safety practices:
-
-1. Implement robust error handling and logging alongside assertions.
-
-2. Consider graceful degradation for non-critical functions.
-
-3. Assess and minimize performance impacts.
-
-4. Ensure compliance with regulatory requirements.
-
-5. Clearly document your assertion strategy and train people on it.
+Developers will need to be trained to use assertion checking properly.
+Assert statements are not for handling errors that can occur in normal
+use of the software. They are a means for confirming that software
+design assumptions are not violated while the software is running.
 
 ## Conclusion
 
-In medical device software, the cost of a crash is almost always less
-than the potential cost of continuing to operate with compromised
-integrity. By keeping assertions enabled, we provide an additional
-layer of safety that can prevent catastrophic failures and protect
-patient lives.
-
-I'm happy to discuss this topic further. If you'd like to dive
-deeper into assertion strategies, error handling in medical device
+I am always happy to discuss this topic. If you'd like to dive deeper
+into assertion checking strategies, error handling in medical device
 code, or any related topics, feel free to schedule a consultation with
 me through my website.
 
 It's a privilege to be able to write software that improves people's
-health. Let us do the best work we can do to protect the trust we are
-shown.
+health. Let us do all we can do to be worthy of the the trust that is
+placed with us.
