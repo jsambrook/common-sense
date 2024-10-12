@@ -21,4 +21,9 @@ because I have just started working with a tool called
 [Google](https://www.google.com).
 
 
+One of the mind-blowing capabilities of this tool is the ability
+to generate an audio overview based on the materials being studied
+in the notebook. I invite you to listen to that recording
+![here](/assets/files/sams-garage.mp3 "AI generated summary of the chapter").
+
 
