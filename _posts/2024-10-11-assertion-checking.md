@@ -7,9 +7,80 @@ thumbnail-img: /assets/img/code-on-fire.jpg
 
 ![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
-As a developer working on safety-critical systems, particularly
+As a software engineer writing software for medical devices, I often
+find myself in discussions about best practices. One topic that comes
+up from time to time is assertion checking. I have found that
+engineers often do not know about the practice or if they do know
+about it, they don't use asserts as often as they could. It's also
+common practice to disable assertion checking in production builds.
+
+Not using assertion checking is a mistake, as is disabling asserts in
+production builds. This does assume that the development team is
+taking some other actions, which I discuss later in the article.
+
+First though, let's understand what it means to use assertion checking
+in software.
+
+## Introduction to Assertion Checking in Software
+
+Assertion checking is a powerful technique in software development
+that helps ensure program correctness and catch bugs early in the
+development process. Assertions are statements that express expected
+conditions or invariants in your code. When an assertion fails, it
+indicates that the program has entered an unexpected state, helping
+developers identify and fix issues quickly.
+
+Key benefits of using assertions in code include:
+
+1. Bug detection: Assertions catch logical errors and invalid
+assumptions early.
+
+2. Self-documenting code: They clarify the developer's intentions and
+expected behavior.
+
+3. Improved debugging: When assertions fail, they provide immediate
+   feedback on where and why an error occurred.
+
+4. Enhanced code quality: Regular use of assertions leads to more
+robust and reliable software.
+
+## Simple Example: Using Assertions in a C Application
+
+Here's a basic example of how to use assertions in a simple CLI C
+application:
+
+```c
+#include <stdio.h>
+#include <assert.h>
+
+int divide(int a, int b) {
+    // Assert that the divisor is not zero
+    assert(b != 0 && "Division by zero is not allowed");
+    return a / b;
+}
+
+int main() {
+    int result = divide(10, 2);
+    printf("10 / 2 = %d\n", result);
+
+    // This will trigger an assertion failure
+    result = divide(5, 0);
+    printf("This line will not be reached\n");
+
+    return 0;
+}
+```
+
+
+
+
+
+As a software engineer working on safety-critical systems, particularly
 medical devices, I often find myself in discussions about best
-practices for code safety and reliability. One topic that frequently
+practices for code safety and reliability.
+
+
+One topic that frequently
 comes up is the use of assertion checking ("asserts") in production
 code. In this article I share my thinking on why you should do this.
 
