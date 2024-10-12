@@ -316,22 +316,23 @@ points:
 
 1. Handling assertion failures
 
-You'll need to decide how the system should respond when an assertion
-failure occurs. That might be via a controlled crash or something more
-elaborate may be needed.
+   You'll need to decide how the system should respond when an assertion
+   failure occurs. That might be via a controlled crash or something more
+   elaborate may be needed.
 
 2. Ship only thoroughly tested software
 
-The answer to "We don't want it to assert in front of a customer" is
-that you must thoroughly test the software to be shipped. There is no
-cheat code for avoiding the need to do this.
+   The answer to "We don't want it to assert in front of a customer" is
+   that you must thoroughly test the software to be shipped. There is no
+   cheat code for avoiding the need to do this.
 
 3. Train developers to use assertion checking properly
 
-Developers will need to be trained to use assertion checking properly.
-Assert statements are not for handling errors that can occur in normal
-use of the software. They are a means for confirming that software
-design assumptions are not violated while the software is running.
+   Developers will need to be trained to use assertion checking
+   properly.  Assert statements are not for handling errors that can
+   occur in normal use of the software. They are a means for
+   confirming that software design assumptions are not violated while
+   the software is running.
 
 ## Conclusion
 
