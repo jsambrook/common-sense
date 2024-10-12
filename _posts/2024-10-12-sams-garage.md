@@ -24,7 +24,7 @@ because I have just started working with a tool called
 One of the mind-blowing capabilities of this tool is the ability
 to generate an audio overview based on the materials being studied
 in the notebook. I invite you to listen to the
-[audio](https://common-sense.com/assets/files/sams-garage.mp3")
+[audio](https://common-sense.com/assets/files/sams-garage.mp3)
 of the deep dive.
 
 
