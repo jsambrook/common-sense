@@ -220,37 +220,31 @@ easier to maintain and audit.
 
 ### Beyond Development: Assertions in Production
 
-While it's common practice to disable assertions in production builds
-for performance reasons, in critical medical devices, the minor
-performance hit is far outweighed by the additional safety layer they
-provide. In life-critical systems, these assertions should remain
-enabled, serving as runtime safeguards against unexpected conditions
-that might slip past other safety measures.
+It's common practice to disable assertions in production builds.
+People seem to have different reasons for doing this.
 
-By implementing and maintaining assertion checks throughout the
-development process and into production, we create more robust, safer
-medical devices. In the high-stakes world of medical technology,
-assertions aren't just good coding practice—they're a critical
-component of patient safety.
+Turning them off for performance reasons is not sensible. First, you
+almost never need to include asserts in very tight, performance
+sensitive code. Second, if your processor(s) are not sized to allow
+you enough performance margin so that assertion checking is too
+burdensome, the solution is to get more compute capacity. You'll need
+it down the road, anyhow, if the product is a valuable one.
 
+The most common reason that I have encountered for turning them off is
+that no one wants the software to crash in the field. I understand
+that, yet turning off the error detectors is not the solution. The
+solution is to pay the price to build the software as well as possible
+and then to verify it thoroughly before shipping it.
 
+### Assertion Checking Also Catches Hardware Errors
 
+Assertion checking also provides a line of defense against hardware
+errors. Even when the code is completely correct, hardware errors will
+often result in assertion failures. This is a good thing, as we never
+want to be in the position of allowing broken hardware to be used to
+diagnose or treat patients.
 
-## It's Controversial
-
-I'm hard core when it comes to using assertion checking in my code. I
-use them frequently in my code to validate my assumptions about the
-program's state at the current point of execution.
-
-But here's where I differ from many of my colleagues: I argue for
-leaving assertions in place and enabled in production code to be
-shipped.
-
-This is often alarming to developers that have typically turned off
-assertion checking in code that is to be shipped. In this article, I
-make the case for leaving them enabled.
-
-## A Practical Example
+## A More Concrete Example
 
 Let's look at a simple example of how an assertion might be used in a
 medical device's SPI driver. Here's a snippet from a hypothetical SPI
@@ -277,19 +271,6 @@ our Hardware Abstraction Layer (HAL). It takes a single boolean
 argument and signals (triggers) an assertion failure and some kind of
 system halt if the condition is false.
 
-In the case of an assertion failure, the system displays debug
-information and then halts. On systems I build, this means doing a
-processor reinitialization and then dumping the debug information
-to some kind of output device, such as the system console (if it has
-one.)
-
-The debug information is often the contents of the general registers
-as they were at the time of the assertion failure, the conditional
-expression that triggered the assert (because it evaluated false) and
-some kind of source code identifier that indicates the location of the
-assert statement in the code. This might be source file and line
-number, or an integer code that never is reused in the code base.
-
 In the example code above, the first assertion checks that the
 device_id is valid before we attempt to use it. The subsequent
 assertions verify that we've gotten valid configuration data for our
@@ -305,6 +286,27 @@ By keeping these assertions in our production code, we ensure that the
 SPI initialization fails safely if any unexpected conditions occur,
 rather than trying to initialize an SPI device with invalid
 parameters.
+
+In the case of an assertion failure, the system displays debug
+information and then takes some appropriate action.
+
+Depending on the use of the system, it may be sufficient to crash the
+system. This often means doing a processor reinitialization and then
+dumping the debug information to some kind of output device, such as
+the system console (if it has one) and then spinning in a tight loop.
+
+On other systems, it may be necessary to reinitialize the processor,
+log the assertion failure information in some way, and then restart.
+There are systems where this kind of reliability is necessary.
+
+When an assertion failure is detected, there is debug information that
+should be displayed and/or saved somewhere. This is often the contents
+of the general registers as they were at the point of the assertion
+failure, the conditional expression that triggered the assert (because
+it evaluated false) and some kind of source code identifier that
+indicates the location of the assert statement in the code. This might
+be source file and line number, or an ever-increasing integer code
+that never is reused in the code base.
 
 ## The Argument Against Assertions in Production Code
 
