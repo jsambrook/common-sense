@@ -7,16 +7,26 @@ thumbnail-img: /assets/img/code-on-fire.jpg
 
 ![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
-As a software engineer writing software for medical devices, I often
-find myself in discussions about best practices. One topic that comes
-up from time to time is assertion checking. I have found that
-engineers often do not know about the practice or if they do know
-about it, they don't use asserts as often as they could. It's also
-common practice to disable assertion checking in production builds.
+In the realm of medical device software engineering, the topic of best
+practices frequently arises in professional discussions. Assertion
+checking, a powerful technique for improving code quality and
+reliability, is often underutilized or misunderstood.
 
-Not using assertion checking is a mistake, as is disabling asserts in
-production builds. This does assume that the development team is
-taking some other actions, which I discuss later in the article.
+Many engineers are either unfamiliar with assertion checking or fail
+to leverage it to its full potential in their code. This gap in
+knowledge or application is particularly concerning in the medical
+device industry, where software reliability can have life-critical
+implications.
+
+Moreover, it's a common industry practice to disable assertion
+checking in production builds. While this approach may offer marginal
+performance benefits, it potentially removes a valuable safeguard
+against unexpected runtime conditions in deployed systems.
+
+This situation underscores the need for greater awareness and
+education about assertion checking, its benefits, and its appropriate
+use in both development and production environments, especially in
+high-stakes fields like medical device software engineering.
 
 First though, let's understand what it means to use assertion checking
 in software.
@@ -71,18 +81,160 @@ int main() {
 }
 ```
 
+To compile and run this program:
+
+1. Save the code in a file named assert_example.c
+
+2. Compile it with: gcc -o assert_example assert_example.c
+
+3. Run the program: ./assert_example
+
+You'll see the first division result, followed by an assertion failure
+when trying to divide by zero.
+
+Assertions are typically enabled during development and testing but
+can be disabled in release builds for performance reasons. To disable
+assertions, compile with the NDEBUG macro defined: gcc -DNDEBUG -o
+assert_example assert_example.c
+
+Remember, while assertions are valuable tools, they should not be used
+for error handling in production code. Instead, use them to catch
+programmer errors and invalid assumptions during development and
+testing. I recommend you leave them enabled in your production code
+as well, as I explain below.
+
+## Assertion Checking: A Critical Safeguard in Medical Device Software
+
+In medical device software, a single bug can mean the difference
+between life and death. Let's explore how assertion checking, a simple
+yet powerful programming technique, can prevent catastrophic failures
+in devices like surgical robots or infusion pumps.
+
+### The Scenario: An Infusion Pump Gone Rogue
+
+Imagine an infusion pump designed to deliver pain medication to a
+patient. The pump is programmed with a maximum safe dosage rate to
+prevent overdose. Here's a simplified version of what the code might
+look like:
+
+```c
+float get_rate_from_user_input() {
+    // This function is expected to perform input validation
+    // and return only valid rates within the safe range.
+    // Implementation details omitted for brevity.
+}
+
+float get_duration_from_user_input() {
+    // This function is expected to perform input validation
+    // and return only valid durations within the safe range.
+    // Implementation details omitted for brevity.
+}
+
+void deliver_medication(float rate, float duration) {
+    float total_dose = rate * duration;
+    activate_pump(total_dose);
+}
+
+// In main control loop
+float rate = get_rate_from_user_input();
+float duration = get_duration_from_user_input();
+deliver_medication(rate, duration);
+```
+
+At first glance, this might seem fine. The input functions are
+expected to perform their own range checking and return only valid
+values. But what if there's a bug in one of these functions? Or what
+if a hardware glitch causes it to return an abnormally high value
+despite the checks?
+
+### The Potential Disaster
+
+Even with input validation, if a bug or hardware issue causes these
+functions to return invalid values, the pump might accept them,
+potentially leading to a massive overdose that could harm or even kill
+the patient.
+
+### The Assertion Solution
+
+Now, let's see how assertion checking can add an extra layer of
+safety:
+
+```c
+#include <assert.h>
+
+#define MAX_SAFE_RATE 10.0  // ml per hour
+#define MAX_SAFE_DURATION 24.0  // hours
+
+float get_rate_from_user_input() {
+    // Input validation logic here
+    // ...
+}
+
+float get_duration_from_user_input() {
+    // Input validation logic here
+    // ...
+}
+
+void deliver_medication(float rate, float duration) {
+    // Assertions as a safety net, not for input validation
+    assert(rate > 0 && rate <= MAX_SAFE_RATE && "Rate must be positive and within safe limits");
+    assert(duration > 0 && duration <= MAX_SAFE_DURATION && "Duration must be positive and within safe limits");
+
+    float total_dose = rate * duration;
+    assert(total_dose <= MAX_SAFE_RATE * MAX_SAFE_DURATION && "Total dose exceeds safe limits");
+
+    activate_pump(total_dose);
+}
+
+// In main control loop
+float rate = get_rate_from_user_input();
+float duration = get_duration_from_user_input();
+deliver_medication(rate, duration);
+```
+
+With these assertions in place:
+
+1. If, despite input validation, the rate somehow exceeds the maximum
+   safe level, the program will immediately halt before activating the
+   pump.
+
+2. If the duration is too long, again, the program stops.
+
+3. Even if both rate and duration are within their individual limits,
+   we check that their combination doesn't exceed the maximum safe
+   total dose.
+
+### The Life-Saving Difference
+
+These assertions serve as an additional line of defense against
+unexpected conditions. They're not replacing proper input validation,
+but rather complementing it. In the event of a software bug, hardware
+glitch, or any other unforeseen issue that bypasses the normal input
+checks, these assertions would trigger, causing the program to
+terminate immediately. The pump would not deliver the excessive dose,
+and the patient would remain safe.
+
+Moreover, these assertions serve as clear documentation of the
+system's safety requirements, making the code self-explanatory and
+easier to maintain and audit.
+
+### Beyond Development: Assertions in Production
+
+While it's common practice to disable assertions in production builds
+for performance reasons, in critical medical devices, the minor
+performance hit is far outweighed by the additional safety layer they
+provide. In life-critical systems, these assertions should remain
+enabled, serving as runtime safeguards against unexpected conditions
+that might slip past other safety measures.
+
+By implementing and maintaining assertion checks throughout the
+development process and into production, we create more robust, safer
+medical devices. In the high-stakes world of medical technology,
+assertions aren't just good coding practice—they're a critical
+component of patient safety.
 
 
 
-
-As a software engineer working on safety-critical systems, particularly
-medical devices, I often find myself in discussions about best
-practices for code safety and reliability.
-
-
-One topic that frequently
-comes up is the use of assertion checking ("asserts") in production
-code. In this article I share my thinking on why you should do this.
 
 ## It's Controversial
 
