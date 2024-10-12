@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/sams-garage.jpg
 
 ![Sam and Marco](/assets/img/sams-garage.jpg "Sam and Marco, having a beer")
 
+[Audio Discussion](https://common-sense.com/assets/files/sams-garage.mp3)
+
 This post is a bit of a diversion and not about software
 engineering. You read it at your own risk.
 
