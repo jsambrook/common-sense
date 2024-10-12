@@ -23,10 +23,8 @@ because I have just started working with a tool called
 
 One of the mind-blowing capabilities of this tool is the ability
 to generate an audio overview based on the materials being studied
-in the notebook. I invite you to listen to that recording
-[here](/assets/files/sams-garage.mp3 "AI generated summary of the chapter").
+in the notebook. I invite you to listen to the
+[audio](https://common-sense.com/assets/files/sams-garage.mp3")
+of the deep dive.
 
-<audio controls>
-  <source src="https://common-sense.com/assets/files/sams-garage.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+
