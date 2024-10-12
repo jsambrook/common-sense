@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/code-on-fire.jpg
 
 ![Code in flames](/assets/img/code-on-fire.jpg "Code going up in flames")
 
+[Audio Discussion](/assets/files/assertion-checking.mps "Audio discussion of this article")
+
 In the realm of medical device software engineering, the topic of best
 practices frequently arises in professional discussions. Assertion
 checking, a powerful technique for improving code quality and
