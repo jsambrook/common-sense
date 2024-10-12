@@ -17,7 +17,7 @@ spiritual matters and other topics that interest me.
 
 Today, I'm posting a draft of a chapter that my editor and I are currently
 working on. I'm sharing it
-![here](/assets/files/sams-garage.pdf "PDF version of chapter")
+[here](/assets/files/sams-garage.pdf "PDF version of chapter")
 because I have just started working with a tool called
 [NotebookLM](https://notebooklm.google.com) from
 [Google](https://www.google.com).
