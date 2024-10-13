@@ -9,26 +9,15 @@ thumbnail-img: /assets/img/sams-garage.jpg
 
 [Audio Discussion](https://common-sense.com/assets/files/sams-garage.mp3)
 
-This post is a bit of a diversion and not about software
-engineering. You read it at your own risk.
+When we experience feelings of sadness and regret, is there anything
+we can do to resolve them without ignoring them or trying to bypass
+them?
 
-I am in the process of writing a book, with the help of a professional
-editor. Two of the main characters in the book are Sam and Marco. The
-book will have some software related content, yet it is also about
-spiritual matters and other topics that interest me.
+In this chapter, Sam and Marco discuss this topic. This chapter introduces
+the first set of concepts. Subsequent chapters will be released soon.
 
-Today, I'm posting a draft of a chapter that my editor and I are currently
-working on. I'm sharing it
-[here](/assets/files/sams-garage.pdf "PDF version of chapter")
-because I have just started working with a tool called
-[NotebookLM](https://notebooklm.google.com) from
-[Google](https://www.google.com).
-
-
-One of the mind-blowing capabilities of this tool is the ability
-to generate an audio overview based on the materials being studied
-in the notebook. I invite you to listen to the
+I also invite you to listen to the
 [audio](https://common-sense.com/assets/files/sams-garage.mp3)
-of the deep dive.
+discussion of the chapter.
 
 
