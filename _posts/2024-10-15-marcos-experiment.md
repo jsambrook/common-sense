@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/med-device-developer.jpg
 
 ![A MedTech Developer](/assets/img/med-device-developer.jpg "A medical device developer at MedTech")
 
-<!-- [Audio Discussion](https://common-sense.com/assets/files/sams-garage.mp3) -->
+[Audio Discussion](https://common-sense.com/assets/files/marcos-experiment.mp3)
 
 Marco and Sam meet at their usual breakfast place and continue the
 discussion they had in Sam's garage last week. As they discuss things,
