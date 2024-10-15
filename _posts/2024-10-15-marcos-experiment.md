@@ -2,7 +2,7 @@
 title: "Marco's Experiment"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/med-device-devloper.jpg
+thumbnail-img: /assets/img/med-device-developer.jpg
 ---
 
 ![A MedTech Developer](/assets/img/med-device-developer.jpg "A medical device developer at MedTech")
