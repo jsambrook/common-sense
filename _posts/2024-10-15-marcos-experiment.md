@@ -14,6 +14,8 @@ discussion they had in Sam's garage last week. As they discuss things,
 Marco comes up with a neat idea for an experiment he wants to run. How
 does Sam receive Marco's suggestion?
 
+Links to additional resources are at the end of this article.
+
  ***
 <center>Marco's Experiment</center>
 
@@ -241,6 +243,12 @@ a long and fruitful exploration, another chapter in their enduring
 friendship and personal growth journey.
 
  ***
+
+Additional Resources
+
+1. [Non-Violent Communication (YouTube)](https://www.youtube.com/watch?v=DgaeHeIL39Y)
+
+2. [Arguments Against Personal Identity (YouTube)](https://www.youtube.com/watch?v=17WiQ_tNld4)
 
 <!-- I also invite you to listen to the
 [audio](https://common-sense.com/assets/files/sams-garage.mp3)
