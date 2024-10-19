@@ -10,11 +10,13 @@ thumbnail-img: /assets/img/sams-garage.jpg
 [Audio Discussion](https://common-sense.com/assets/files/sams-garage.mp3)
 
 When we experience feelings of sadness and regret, is there anything
-we can do to resolve them without ignoring them or trying to bypass
-them?
+we can do to resolve them in a positive, helpful way? Or are we doomed
+to just ruminate forever on such feelings, wondering if we could have
+done something different?
 
-In this chapter, Sam and Marco discuss this topic. This chapter introduces
-the first set of concepts. Subsequent chapters will be released soon.
+In the following, Sam and Marco discuss this topic.
+
+Links to additional resources are at the end of this article.
 
  ***
 
@@ -394,3 +396,10 @@ time."
 Marco reached out toward the six pack and chuckled. "Given
 enough time, we'll figure it out."
 
+ ***
+
+ Additional Resources
+
+1. ["Determined" by Dr. Robert Sapolsky](https://www.amazon.com/Determined-Science-Life-without-Free/dp/B0BVNSX4CQ/)
+
+2. ["Determined - Life Without Free Will" (YouTube Talk)](https://www.youtube.com/watch?v=rv38taDUpwQ)
