@@ -16,6 +16,8 @@ them?
 In this chapter, Sam and Marco discuss this topic. This chapter introduces
 the first set of concepts. Subsequent chapters will be released soon.
 
+ ***
+
 You can read the chapter
 [here](https://common-sense.com/assets/files/sams-garage.pdf)
 .
