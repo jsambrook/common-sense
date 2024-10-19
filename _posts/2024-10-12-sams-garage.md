@@ -403,3 +403,7 @@ enough time, we'll figure it out."
 1. ["Determined" by Dr. Robert Sapolsky](https://www.amazon.com/Determined-Science-Life-without-Free/dp/B0BVNSX4CQ/)
 
 2. ["Determined - Life Without Free Will" (YouTube Talk)](https://www.youtube.com/watch?v=rv38taDUpwQ)
+
+3. ["The Dark Side of Free Will" (Ted Talk)](https://www.youtube.com/watch?v=rfOMqehl-ZA)
+
+4. [Sam Harris and Joe Rogan Discuss Free Will](https://www.youtube.com/watch?v=OFazP2nBIqQ)
