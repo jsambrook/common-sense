@@ -26,8 +26,6 @@ are fictional.
  ***
 <center>Assertion Checking For Denali</center>
 
-# Assertion Checking for Denali: A Team Discussion
-
 The Jupiter conference room at MedTech was abuzz with activity as
 Marco's software team gathered for their weekly meeting. Today's
 agenda: discussing the assertion checking strategy for their new
@@ -232,11 +230,11 @@ identify where an assert failed without the file and line number?"
 
 Sarah jumped in. "It's easy to search for these codes in the IDE,
 or we could have a simple script that used `grep` or `ripgrep` on
-the code to find them. I don't think this would be a big problem.
+the code to find them. I don't think this would be a big problem."
 
-Marco nodded approvingly. "Excellent discussion, team. For Denali,
-we're going to use a hybrid approach. We'll include both the unique
-code and the file and line information:
+Marco nodded approvingly. "This has been a good discussion. For
+Denali, we're going to use a hybrid approach. We'll include both the
+unique code and the file and line information:
 
 ```c
 #define hal_assert(condition, code, message) \
@@ -253,10 +251,10 @@ As the team seemed satisfied with the technical aspects of the
 assertion strategy, Marco raised his hand to draw attention to one
 final, crucial point.
 
-"Before we wrap up, there's something very important I want to
-emphasize," Marco said, his tone serious. "For this assertion strategy
-to be effective, it's absolutely critical that we maintain our
-commitment to thorough testing."
+"Before we wrap up, there's something important I want to emphasize,"
+Marco said, his tone serious. "For this assertion strategy to be
+effective, it's absolutely critical that we maintain our commitment to
+thorough testing."
 
 Rachel, the QA specialist, nodded vigorously. "Absolutely. Our goal
 should be to catch every possible assertion failure during our testing
@@ -275,7 +273,7 @@ assertion in our code represents an assumption about how our system
 should behave. If an assertion fails, it means one of our fundamental
 assumptions was wrong."
 
-Marco nodded approvingly. "Well put, Sarah. In an ideal world,
+Marco nodded in aggreement. "Well put, Sarah. In an ideal world,
 assertion failures should almost never happen in the field. If they
 do, it means something significant and unexpected has occurred."
 
@@ -315,10 +313,10 @@ really helpful. If we do encounter an assertion failure during
 testing, we can quickly identify exactly which assumption was
 violated."
 
-"Excellent point, Sarah," Marco agreed. "This approach allows us to
-continuously improve our software. Every assertion failure we catch in
-testing is a potential critical issue we've prevented from reaching a
-patient."
+"That is exactly right, Sarah," Marco agreed. "This approach allows us
+to continuously improve our software. Every assertion failure we catch
+in testing is a potential critical issue we've prevented from reaching
+a patient."
 
 Lisa looked thoughtful. "This really emphasizes how important our work
 is. Each assertion we write, each test we design, could literally be
@@ -336,9 +334,9 @@ Rachel broke the silence, a look of curiosity on her face. "Marco,
 I've been wondering. With all our structured testing, are there any
 other approaches we're using to really push our system to its limits?"
 
-Marco's eyes lit up. "I'm glad you asked, Rachel. In fact, there's
-another crucial component to our testing strategy that I wanted to
-discuss. We call it our 'random' or 'thousand monkeys' test."
+Marco smiled.  "I'm glad you asked, Rachel. In fact, there's another
+crucial component to our testing strategy that I wanted to discuss. We
+call it our 'random' or 'thousand monkeys' test."
 
 Tom couldn't suppress a chuckle. "'Thousand monkeys'? What does that
 mean?"
@@ -376,7 +374,9 @@ Tom's eyes widened. "Hundreds of hours? That's a lot of testing!"
 
 "It is," Marco agreed. "But remember, we're dealing with a medical
 device that people's lives will depend on. We can't afford to cut
-corners."
+corners. And of course, we might have ten such systems running the
+test in parallel, so the actual time to complete the testing won't
+be too bad."
 
 Lisa nodded thoughtfully. "So between our comprehensive structured
 tests and these extensive random tests, we're really covering all our
@@ -391,8 +391,8 @@ Sarah added, "And all of this testing helps ensure that our assertions
 are doing their job correctly, without being too restrictive or too
 permissive."
 
-"Exactly right, Sarah," Marco said with a nod. "It's all part of our
-commitment to creating the safest, most reliable infusion pump
+"Yep, that's right, Sarah," Marco said with a nod. "It's all part of
+our commitment to creating the safest, most reliable infusion pump
 possible. Our assertion strategy, combined with both structured and
 random testing, forms a robust framework for ensuring the quality and
 safety of Denali."
