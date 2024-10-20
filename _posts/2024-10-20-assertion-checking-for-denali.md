@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/marcos-team-whiteboarding.jpg
 
 ![Marco's Team Whiteboarding](/assets/img/marcos-team-whiteboarding.jpg "Marco's team whiteboarding")
 
-[Audio Discussion](https://common-sense.com/assets/files/marcos-experiment.mp3)
+[Audio Discussion](https://common-sense.com/assets/files/assertion-checking-for-denali.mp3)
 
 Marco convenes his software team to discuss the assertion checking
 strategy they will use on Denali, the new high-end infusion pump that
