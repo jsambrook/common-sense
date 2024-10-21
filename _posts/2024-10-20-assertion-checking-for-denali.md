@@ -417,11 +417,10 @@ they were ready to rise to the challenge.
 
 Additional Resources
 
-<!-- 1. [Non-Violent Communication (YouTube)](https://www.youtube.com/watch?v=DgaeHeIL39Y) -->
+1. [Using Asserts in Embedded Systems](https://interrupt.memfault.com/blog/asserts-in-embedded-systems)
 
-<!-- 2. [Arguments Against Personal Identity (YouTube)](https://www.youtube.com/watch?v=17WiQ_tNld4) -->
+2. [A Nail for a Fuse](https://www.state-machine.com/a-nail-for-a-fuse)
 
-<!-- I also invite you to listen to the
-[audio](https://common-sense.com/assets/files/sams-garage.mp3)
-discussion of the chapter. -->
+3. [7 Tips for Using Assertions in C](https://www.beningo.com/7-tips-for-using-assertions-in-c)
+
 
