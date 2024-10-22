@@ -2,12 +2,12 @@
 title: "The Tractor Pull"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/tractor-pull.jpg
+thumbnail-img: /assets/img/tractor-pull-2.jpg
 ---
 
-![Tractor Pull](/assets/img/tractor-pull.jpg)
+![Tractor Pull](/assets/img/tractor-pull-2.jpg)
 
-[Audio Discussion](https://common-sense.com/assets/files/tractor-pull.mp3)
+<!-- [Audio Discussion](https://common-sense.com/assets/files/tractor-pull.mp3) -->
 
 Sarah stops by Marco's office to talk about a recent topic they
 discussed in a team meeting. Sarah wants to know a bit more about what
