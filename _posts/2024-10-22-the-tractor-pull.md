@@ -22,7 +22,7 @@ are fictional.
 
  ***
 
-The Sarah and the Tractor Pull
+The Tractor Pull
 
 Sarah knocked on Marco's office door, finding him at his standing desk
 reviewing some code. He looked up with a warm smile. "Hey Sarah, come
