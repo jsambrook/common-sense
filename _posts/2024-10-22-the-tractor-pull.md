@@ -133,8 +133,7 @@ then dive into specific examples from our work."
 up. "Thanks, Marco. This has given me a whole new perspective on why
 we do things the way we do."
 
-As Sarah left his office, Marco smiled, satisfied that the
-conversation had helped another team member understand the deeper
-purpose behind their development practices. It was these kinds of
-discussions that helped build not just better software, but a better
-team.
+As Sarah left his office, Marco noticed a feeling of competence in his
+role as a manager. He knew Sarah would do a great job in sharing this
+perspective with the team. And over time, their practice of software
+engineering would improve.
