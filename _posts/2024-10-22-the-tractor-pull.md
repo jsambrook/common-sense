@@ -31,15 +31,18 @@ are fictional.
 The Tractor Pull
 
 Sarah knocked on Marco's office door, finding him hunched over his
-standing desk, debugging what looked like a test harness. He looked up
-with a welcoming smile. "Hey Sarah, come on in. Just wrapping up some
-changes to the assertion framework."
+standing desk, scope probe in hand and probing a development board of
+some kind. He looked up with a welcoming smile. "Hey Sarah, come on
+in. Just making some timing measurements on the new temporal assert
+macro we discussed after the meeting yesterday. With it, we will be
+able to use assertion checking to guarantee that we meet various
+timing constraints in our code."
 
-"Perfect timing actually," Sarah said, settling into one of the chairs
-across from his desk. "Yesterday's discussion about assertion checking
-got me thinking. The technical approach makes sense, especially for a
-Class III device, but I'm curious about the bigger picture. What made
-you focus on this now?"
+"Your timing is perfect, actually," Sarah said with a grin, settling
+into one of the chairs across from his desk. "Yesterday's discussion
+about assertion checking got me thinking. The technical approach makes
+sense, especially for a Class III device, but I'm curious about the
+bigger picture. What made you focus on this now?"
 
 Marco lowered his desk and took a seat, clearly pleased by the
 question. "You know, that's exactly what I was hoping someone would
