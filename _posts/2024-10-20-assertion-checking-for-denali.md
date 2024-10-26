@@ -24,7 +24,7 @@ Please note that all people and companies mentioned in this article
 are fictional.
 
  ***
-<center>Assertion Checking For Denali</center>
+Assertion Checking For Denali
 
 The Jupiter conference room at MedTech was abuzz with activity as
 Marco's software team gathered for their weekly meeting. Today's

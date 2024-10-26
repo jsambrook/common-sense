@@ -94,6 +94,13 @@ don't want our work to become progressively harder as we go along,
 until we're working as hard as we can and yet just spinning our
 wheels."
 
+"Let me sketch something on the whiteboard. I want your comments on
+this."
+
+Marco drew a simple graph on the whiteboard. It looked like this:
+
+![Simple case](/assets/img/workload-single.png)
+
 Sarah's eyes widened with understanding. "So these best practices you
 are introducing..."
 
