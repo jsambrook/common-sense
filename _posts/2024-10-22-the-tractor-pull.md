@@ -220,7 +220,7 @@ Additional Resources
      Constraints principles to regulated environments and provides
      valuable insights for medical device development teams.
 
-2. **"Accelerate: The Science of Lean Software and DevOps"** by Nicole Forsgren PhD, Jez Humble, and Gene Kim (2018)
+2. **["Accelerate: The Science of Lean Software and DevOps"](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) ** by Nicole Forsgren PhD, Jez Humble, and Gene Kim (2018)
    - Particularly relevant are chapters 4 and 11, which discuss
      technical practices that help maintain consistent delivery pace
      and quality in software development.
