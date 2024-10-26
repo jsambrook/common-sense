@@ -180,7 +180,7 @@ medical device development.
 
  ***
 
-Key Takeaways:
+Key Takeaways
 
 Monitor Your Pull Weight: Like a tractor pull, software projects often
 start easily but can become progressively harder to move
