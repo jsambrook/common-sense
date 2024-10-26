@@ -97,9 +97,58 @@ wheels."
 "Let me sketch something on the whiteboard. I want your comments on
 this."
 
-Marco drew a simple graph on the whiteboard. It looked like this:
+Marco moved to the whiteboard and drew a simple graph:
 
 ![Simple case](/assets/img/workload-single.png)
+
+"Sarah, I think this is how the workload on software development teams
+in our industry tends to evolve over the course of the project. At the
+start of the project, the workload is relatively light. I labeled that
+1x. And the workload stays relatively constant over the first half of
+the project, or so. I'm guessing here, by the way.
+
+Nevertheless, it has been my experience that the last half of a
+project is where they most of often run into trouble. I'm suggesting
+that this is due, in part, to the workload increasing during the last
+half of the project.
+
+I think this is probably due to a few different things."
+
+Sarah looked at the figure thoughtfully for a minute, then spoke:
+"That makes some sense to me. Towards the end of the project things
+that have been deferred have to get resolved. For example, all the
+TODOs left in the code have to eventually be addressed before the
+project can ship. Especially on a medical device project - it would be
+awkward to try to explain the presence of a TODO: in the code of a
+shipping product.
+
+There are also other activities starting to happen. For example,
+receiving hardware prototypes that likely have bugs of their own.
+There is also the work for building testing tools, like frameworks for
+system level test, etc.
+
+There is also the fact that people may be starting to get a bit burnt
+out on the project. I don't know if turnover tends to increase as the
+workload increases, but I would not be surprised if it did."
+
+"Those all seem credible to me - At least, worthy of serious
+consideration.  Doubtless there are other causes as well."
+
+Marco picked up a green marker and added a second line to the drawing
+on the whiteboard. Once he finished, it looked like this:
+
+![Simple case](/assets/img/workload-comparison.png)
+
+"The green line corresponds to what I think we should try to achieve
+on Denali. As you can see, I'm hoping that that can manage the project
+so that the workload on the team is relatively flat over the whole
+course of the project."
+
+
+
+
+
+
 
 Sarah's eyes widened with understanding. "So these best practices you
 are introducing..."
