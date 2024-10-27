@@ -22,7 +22,8 @@ Marco with a task that interests her and better prepared to help her
 team.
 
 Key take-aways and links to additional resources are at the end of
-this article.
+this article. The YouTube video from "Smarter Every Day" is especially
+good!
 
 Please note that all people and companies mentioned in this article
 are fictional.
@@ -216,23 +217,26 @@ Additional Resources
 
 ## Additional Resources
 
-1. [The Hospital and Clinic Improvement Handbook](https://www.amazon.com/Hospital-Clinic-Improvement-Handbook-Constraints/dp/0190843454) by Boaz Ronen, Joseph S. Pliskin, and Shimeon Pass (2006)
+1. [TRACTOR PULLS: It's Not What You Think - Smarter Every Day 276](https://www.youtube.com/watch?v=VZ6_8WJ3mh8)
+   - An interesting and fun video full of inside baseball on tractor pulls!
+
+2. [The Hospital and Clinic Improvement Handbook](https://www.amazon.com/Hospital-Clinic-Improvement-Handbook-Constraints/dp/0190843454) by Boaz Ronen, Joseph S. Pliskin, and Shimeon Pass (2006)
    - While focused on healthcare delivery, this book applies Lean and
      Theory of Constraints principles to regulated environments and
      provides valuable insights for medical device development teams.
 
-2. [Accelerate: The Science of Lean Software and DevOps](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) by Nicole Forsgren PhD, Jez Humble, and Gene Kim (2018)
+3. [Accelerate: The Science of Lean Software and DevOps](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) by Nicole Forsgren PhD, Jez Humble, and Gene Kim (2018)
    - Particularly relevant are chapters 4 and 11, which discuss
      technical practices that help maintain consistent delivery pace
      and quality in software development.
 
-3. [The Phoenix Project: A Graphic Novel about IT, DevOps, and Helping Your Business Win](https://www.amazon.com/Phoenix-Project-Graphic-Helping-Business/dp/1950508919) by Gene Kim, Kevin Behr, and George Spafford (2013)
+4. [The Phoenix Project: A Graphic Novel about IT, DevOps, and Helping Your Business Win](https://www.amazon.com/Phoenix-Project-Graphic-Helping-Business/dp/1950508919) by Gene Kim, Kevin Behr, and George Spafford (2013)
    - While not specific to medical devices, this business novel
      effectively illustrates how unmanaged work-in-progress leads to
      increasing organizational drag - similar to our tractor pull
      metaphor.
 
-4. [Technical Debt in Practice: How to Find It and Fix It](https://www.amazon.com/Technical-Debt-Practice-How-Find/dp/0262542110) by Neil Ernst, Ipek Ozkaya, and Robert Nord (2020)
+5. [Technical Debt in Practice: How to Find It and Fix It](https://www.amazon.com/Technical-Debt-Practice-How-Find/dp/0262542110) by Neil Ernst, Ipek Ozkaya, and Robert Nord (2020)
    - Provides practical approaches to identifying and managing
      technical debt, with specific attention to regulated environments
      where quality requirements are strict.
