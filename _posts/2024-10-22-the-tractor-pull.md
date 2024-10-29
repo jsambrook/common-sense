@@ -1,5 +1,5 @@
 ---
-title: "The Tractor Pull"
+title: "Managing Software Group Workload: The Tractor Pull"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/tractor-pull-2.jpg
@@ -30,7 +30,7 @@ are fictional.
 
  ***
 
-The Tractor Pull
+Managing Software Group Workload: The Tractor Pull
 
 Sarah knocked on Marco's office door, finding him hunched over his
 standing desk, scope probe in hand and probing a development board of
@@ -215,10 +215,10 @@ consistently deliver quality while standing up to regulatory scrutiny.
 
 Additional Resources
 
-## Additional Resources
-
 1. [TRACTOR PULLS: It's Not What You Think - Smarter Every Day 276](https://www.youtube.com/watch?v=VZ6_8WJ3mh8)
    - An interesting and fun video full of inside baseball on tractor pulls!
+
+2. https://productive.io/blog/workload-management/
 
 2. [The Hospital and Clinic Improvement Handbook](https://www.amazon.com/Hospital-Clinic-Improvement-Handbook-Constraints/dp/0190843454) by Boaz Ronen, Joseph S. Pliskin, and Shimeon Pass (2006)
    - While focused on healthcare delivery, this book applies Lean and
