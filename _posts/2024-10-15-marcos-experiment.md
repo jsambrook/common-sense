@@ -11,9 +11,11 @@ thumbnail-img: /assets/img/med-device-developer.jpg
 
 Marco and Sam meet at their usual breakfast place and continue the
 discussion they had in Sam's garage last week. As they discuss things,
-Marco begins to if what they discussed might relate to the dynamics of
-the software team he manages at MedTech. He decides to run a small
-experiment.
+Marco begins to wonder if what they discussed might relate to the
+dynamics of the software team he manages at MedTech. He has seen the
+damaging a blaming culture - an unjust culture - creates and wants to
+protect his team. He decides to run a small and discrete experiment
+to see for himself if what Sam described might be happening.
 
 How does Sam receive Marco's suggestion, and is Marco on to something
 important or chasing ghosts?
