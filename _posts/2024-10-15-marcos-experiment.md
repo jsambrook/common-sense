@@ -15,8 +15,8 @@ Marco begins to if what they discussed might relate to the dynamics of
 the software team he manages at MedTech. He decides to run a small
 experiment.
 
-How does Sam receive Maro's suggestion, and is Marco on to something
-important?
+How does Sam receive Marco's suggestion, and is Marco on to something
+important or chasing ghosts?
 
 Links to additional resources are at the end of this article.
 
