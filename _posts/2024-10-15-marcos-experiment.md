@@ -9,16 +9,17 @@ thumbnail-img: /assets/img/med-device-developer.jpg
 
 [Audio Discussion](https://common-sense.com/assets/files/marcos-experiment.mp3)
 
-Marco and Sam meet at their usual breakfast place and continue the
-discussion they had in Sam's garage last week. As they discuss things,
-Marco begins to wonder if what they discussed might relate to the
-dynamics of the software team he manages at MedTech. He has seen the
-damaging a blaming culture - an unjust culture - creates and wants to
-protect his team. He decides to run a small and discrete experiment
-to see for himself if what Sam described might be happening.
+Marco and Sam settle into their usual breakfast spot, resuming their
+conversation from Sam's garage the previous week. As they talk, Marco
+draws a connection between their discussion and the dynamics within
+his software team at MedTech. Having witnessed firsthand the damage
+that a blame-oriented culture inflicts, he's determined to shield his
+team from developing such toxic patterns. Intrigued by Sam's insights,
+Marco resolves to conduct a small, discreet experiment to test whether
+similar dynamics might be at play in his own team.
 
-How does Sam receive Marco's suggestion, and is Marco on to something
-important or chasing ghosts?
+How does Sam receive Marco's suggestion and is Marco on to something
+important or wasting his time?
 
 Links to additional resources are at the end of this article.
 
