@@ -9,13 +9,18 @@ thumbnail-img: /assets/img/tractor-pull-2.jpg
 
 [Audio Discussion](https://common-sense.com/assets/files/tractor-pull.mp3)
 
-Sarah stops by Marco's office to talk about a recent topic they
-discussed in a team meeting. Sarah wants to know more about what
-Marco has planned for the team.
+Marco is interested in managing the workload on his software
+development team, and has been presenting different ideas to the team
+for their consideration.
+
+In this short story, Sarah stops by Marco's office to talk about one
+of the ideas they discussed recently. Sarah wants to know more about
+what Marco has planned for the team.
 
 Marco is happy to oblige and discusses one of the purposes of their
-team meetings. They have a good discussion in which Marco uses the
-metaphor of a county fair tractor pull.
+team meetings - shaping, or managing, the worklod on the software
+group. They have a good discussion in which Marco uses the metaphor of
+a county fair tractor pull.
 
 The metaphor makes sense to Sarah and she leaves the meeting with
 Marco with a task that interests her and better prepared to help her
