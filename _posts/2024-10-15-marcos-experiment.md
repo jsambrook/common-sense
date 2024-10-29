@@ -1,5 +1,5 @@
 ---
-title: "Marco's Experiment"
+title: "Software Team Dynamics: Marco's Experiment"
 author: John Sambrook
 tags: [journal]
 thumbnail-img: /assets/img/med-device-developer.jpg
@@ -11,13 +11,21 @@ thumbnail-img: /assets/img/med-device-developer.jpg
 
 Marco and Sam meet at their usual breakfast place and continue the
 discussion they had in Sam's garage last week. As they discuss things,
-Marco comes up with a neat idea for an experiment he wants to run. How
-does Sam receive Marco's suggestion?
+Marco begins to if what they discussed might relate to the dynamics of
+the software team he manages at MedTech. He decides to run a small
+experiment.
+
+How does Sam receive Maro's suggestion, and is Marco on to something
+important?
 
 Links to additional resources are at the end of this article.
 
+Please note that all people and companies mentioned in this article
+are fictional.
+
  ***
-<center>Marco's Experiment</center>
+
+Software Team Dynamics: Marco's Experiment
 
 Sam pushed open the heavy door of George's restaurant, briefly musing
 on how the weight seemed to symbolize the gradual loss of strength
