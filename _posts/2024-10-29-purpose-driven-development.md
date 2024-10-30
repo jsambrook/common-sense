@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/crash.jpg
 
 ![Purpose Driven Development](/assets/img/crash.jpg)
 
-<!-- [Audio Discussion](https://common-sense.com/assets/files/tractor-pull.mp3) -->
+[Audio Discussion](https://common-sense.com/assets/files/purpose-driven-development.mp3)
 
 What happens when a software team discovers the true impact of their
 work? Not through corporate messaging or vision statements, but
