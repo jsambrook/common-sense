@@ -5,7 +5,7 @@ tags: [journal]
 thumbnail-img: /assets/img/software-purpose.jpg
 ---
 
-<!-- ![Team Meeting](/assets/img/team-meeting.jpg "Marco's team meeting in the Jupiter conference room") -->
+![Team Meeting](/assets/img/software-purpose.jpg "Marco's team meeting in the Jupiter conference room")
 
 <!-- [Audio Discussion](https://common-sense.com/assets/files/maintaining-purpose.mp3) -->
 
