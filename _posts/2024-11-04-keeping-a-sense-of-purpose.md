@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/software-purpose.jpg
 
 ![Team Meeting](/assets/img/software-purpose.jpg "Marco's team meeting in the Jupiter conference room")
 
-<!-- [Audio Discussion](https://common-sense.com/assets/files/maintaining-purpose.mp3) -->
+[Audio Discussion](https://common-sense.com/assets/files/keeping-a-sense-of-purpose.mp3)
 
 When a powerful reminder of purpose touches a software team, how do
 they maintain that energy and translate it into lasting change? At
