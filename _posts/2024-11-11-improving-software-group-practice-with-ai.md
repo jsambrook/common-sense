@@ -213,4 +213,4 @@ Additional Resources
 
 Footnotes
 
-[^1]: [Maintaining a Sense of Purpose](https://https://common-sense.com/blog/keeping-a-sense-of-purpose)
+[^1]: Prior article: [Maintaining a Sense of Purpose](https://common-sense.com/blog/keeping-a-sense-of-purpose)
