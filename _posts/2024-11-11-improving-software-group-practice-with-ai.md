@@ -24,7 +24,7 @@ this article.
 Please note that all people and companies mentioned in this article
 are fictional.
 
-[^1]: This is the footnote text.
+
 
 ***
 
@@ -210,3 +210,7 @@ Additional Resources
 
 4. ["The Choice"](https://www.amazon.com/Choice-Eliyahu-M-Goldratt/dp/0884271900) by Eliyahu M. Goldratt
    - Explores the fundamental concepts behind TOC thinking tools
+
+*** Footnotes
+
+[^1]: [Maintaining a Sense of Purpose](https://https://common-sense.com/blog/keeping-a-sense-of-purpose)
