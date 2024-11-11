@@ -2,14 +2,12 @@
 title: "Improving Software Group Practice with AI"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/sam-marco-ai.jpg
+thumbnail-img: /assets/img/sam-and-marco-at-sams-home-office.jpg
 ---
 
-<!--
-![Sam and Marco](/assets/img/sam-marco-ai.jpg)
+![Sam and Marco](/assets/img/sam-and-marco-at-sams-home-office.jpg)
 
-[Audio Discussion](https://common-sense.com/assets/files/sam-marco-ai-tools.mp3)
--->
+<!-- [Audio Discussion](https://common-sense.com/assets/files/sam-marco-ai-tools.mp3) -->
 
 After a productive team meeting[^1] where Marco's software group used
 TOC tools to channel their inspiration from Robert Fisher's visit into
@@ -211,6 +209,8 @@ Additional Resources
 4. ["The Choice"](https://www.amazon.com/Choice-Eliyahu-M-Goldratt/dp/0884271900) by Eliyahu M. Goldratt
    - Explores the fundamental concepts behind TOC thinking tools
 
-*** Footnotes
+***
+
+Footnotes
 
 [^1]: [Maintaining a Sense of Purpose](https://https://common-sense.com/blog/keeping-a-sense-of-purpose)
