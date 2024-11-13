@@ -27,7 +27,7 @@ You might [enjoy this short video]({{ '/blog/get-great-get-a-coach' | relative_u
 ## MY ROLE AS AN INDIVIDUAL CONTRIBUTOR
 {: .space-top }
 
-{% include inline-img.html path="/assets/img/confident.jpeg" caption="Software engineering and process improvement are other roles of mine." %}
+{% include inline-img.html path="/assets/img/confident.webp" caption="Software engineering and process improvement are other roles of mine." %}
 
 I also contribute to my client’s success by solving specific problems they want my help with. Those problems may be highly technical and software-oriented, or they may be more around problem solving and communications within the team.
 
