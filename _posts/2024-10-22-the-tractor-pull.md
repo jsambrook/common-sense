@@ -2,10 +2,10 @@
 title: "Managing Software Group Workload: The Tractor Pull"
 author: John Sambrook
 tags: [journal]
-thumbnail-img: /assets/img/tractor-pull-2.jpg
+thumbnail-img: /assets/img/tractor-pull-2.webp
 ---
 
-![Tractor Pull](/assets/img/tractor-pull-2.jpg)
+![Tractor Pull](/assets/img/tractor-pull-2.webp)
 
 [Audio Discussion](https://common-sense.com/assets/files/tractor-pull.mp3)
 
