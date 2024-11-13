@@ -36,7 +36,7 @@ Process improvement is a deep and lasting interest of mine. I am also certified 
 ## MY ROLE AS AN EDUCATOR
 {: .space-top }
 
-{% include inline-img.html path="/assets/img/thinking.jpeg" caption="Thinking, writing and sharing my thinking with others is also a role of mine." %}
+{% include inline-img.html path="/assets/img/thinking.webp" caption="Thinking, writing and sharing my thinking with others is also a role of mine." %}
 
 I value thinking, writing and sharing my thoughts. So I see one of my roles in life as developing helpful ways to frame, understand and share my thinking with others. If you want to see examples of my work, please have a look at [the blog that I publish]({{ '/blog' | relative_url }}) on this website.
 
