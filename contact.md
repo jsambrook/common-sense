@@ -2,7 +2,7 @@
 title: Contact
 ---
 
-{% include inline-img.html path="/assets/img/john.jpg" caption="Contact me for a relaxed discussion of your context and how we might work together." %}
+{% include inline-img.html path="/assets/img/john.webp" caption="Contact me for a relaxed discussion of your context and how we might work together." %}
 
 I provide software engineering [services]({{ '/services' | relative_url }}) of various kinds. The list of services is not exclusive. It is based in large part on my forty years of software engineering experience.
 

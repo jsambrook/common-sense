@@ -2,7 +2,7 @@
 title: About
 ---
 
-{% include inline-img.html path="/assets/img/john.jpg" caption="John Sambrook, Founder" %}
+{% include inline-img.html path="/assets/img/john.webp" caption="John Sambrook, Founder" %}
 
 I founded Common Sense in 1996 with the goal of providing software engineering services. I am pleased with how things have unfolded in the business over the last 26 years.
 
