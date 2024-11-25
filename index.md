@@ -24,7 +24,7 @@ full-width: true
         <a class="process-title" href="{{ '/about-us' | relative_url }}">2. Check out our expertise&nbsp;&nearr;</a>
         <div>Get a feel for the kind of projects we can deliver.</div>
         <a class="process-title" href="{{ '/contact' | relative_url }}">3. Schedule a discussion&nbsp;&nearr;</a>
-        <div>Enjoy a relaxed discussion of your project and your requirements.</div>
+        <div>Enjoy a relaxed discussion of your project and your requirements. ...</div>
       </div>
       <div class="col-lg-6">
         <div class="center">
