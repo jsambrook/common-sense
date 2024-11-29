@@ -2,11 +2,11 @@
 title: Contact
 ---
 
-{% include inline-img.html path="/assets/img/john.webp" caption="Contact me for a relaxed discussion of your context and how we might work together." %}
+{% include inline-img.html path="/assets/img/john.webp" caption="John Sambrook." %}
 
-I provide software engineering [services]({{ '/services' | relative_url }}) of various kinds. The list of services is not exclusive. It is based in large part on my forty years of software engineering experience.
+I provide software engineering services of various kinds. The list of services is not exclusive. It is based in large part on my forty years of software engineering experience.
 
-You might also enjoy some of the articles I have posted on my [blog]({{ '/blog' | relative_url }}). They will give you a better sense of my interests and experience.
+You might also enjoy some of the articles I have posted on my blog. They will give you a better sense of my interests and experience.
 
 Contact me any time for a relaxed discussion about your needs and to explore if and how we might work together.
 

@@ -10,7 +10,7 @@ title: Blog
     {% if post.thumbnail-img %}
       <div class="entry-image rounded">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ post.thumbnail-img | absolute_url }}" alt="Post thumbnail">
+          <img src="{{ post.thumbnail-img | absolute_url }}" alt="{{ post.title | strip_html }}">
         </a>
       </div>
     {% endif %}
