@@ -38,10 +38,10 @@ We empower your team with the knowledge and skills needed to implement and maint
 
 We offer two ways to begin your automation journey:
 
-1. **Free Consultation Call**  
+1. **Free Consultation Call**
    Explore possibilities for saving hours each week through automation in a no-obligation discussion.
 
-2. **Free Business Review**  
+2. **Free Business Review**
    Receive a comprehensive 1-day review of your business to discover and discuss specific automation opportunities.
 
 ## CLIENT SUCCESS STORIES
@@ -49,16 +49,16 @@ We offer two ways to begin your automation journey:
 
 Our clients have achieved remarkable results through automation:
 
-{% include testimonial.html 
-   quote="[Client testimonial from FMSC]" 
+{% include testimonial.html
+   quote="[Client testimonial from FMSC]"
    author="FMSC" %}
 
-{% include testimonial.html 
-   quote="[Client testimonial from Dennis Doss]" 
+{% include testimonial.html
+   quote="[Client testimonial from Dennis Doss]"
    author="Dennis Doss" %}
 
-{% include testimonial.html 
-   quote="[Client testimonial from Karan Sharma]" 
+{% include testimonial.html
+   quote="[Client testimonial from Karan Sharma]"
    author="Karan Sharma" %}
 
 ## OUR COMMITMENT
