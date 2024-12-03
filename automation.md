@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Business Process Automation
+css: /assets/css/index.css
+full-width: true
 ---
 
 ![Automation Services]({{ '/assets/img/happy-business-owner-yes.jpg' | relative_url }})
@@ -8,6 +10,8 @@ title: Business Process Automation
 ## TRANSFORM YOUR BUSINESS WITH AUTOMATION
 
 Common Sense helps small businesses and busy professionals automate repetitive tasks, enabling teams to focus on meaningful work that creates real value. We leverage low-code automation tools and generative AI to streamline your operations and boost productivity.
+
+<!--
 
 > "Smart and reliable automation gives you more time to focus on doing what you love to do."
 
@@ -44,7 +48,6 @@ We offer two ways to begin your automation journey:
 2. **Free Business Review**
    Receive a comprehensive 1-day review of your business to discover and discuss specific automation opportunities.
 
-<!--
 ## CLIENT SUCCESS STORIES
 {: .space-top }
 
@@ -62,8 +65,6 @@ Our clients have achieved remarkable results through automation:
    quote="[Client testimonial from Karan Sharma]"
    author="Karan Sharma" %}
 
--->
-
 ## OUR COMMITMENT
 {: .space-top }
 
@@ -78,3 +79,5 @@ As leaders in workflow automation, we are committed to:
 {: .space-top }
 
 Take the first step toward transforming your business operations. [Contact us]({{ '/contact' | relative_url }}) today to schedule your free consultation or business review.
+
+-->
