@@ -3,14 +3,24 @@ layout: page
 title: Automation
 ---
 
-![Coaching]({{ '/assets/img/coaching.jpeg' | relative_url }})
+![Automation Services]({{ '/assets/img/happy-business-owner-yes.jpg' | relative_url }})
 
-## WHAT DO YOU DO?
 
-I work with people who have a genuine interest in improving their ability to practice the art and science of software engineering.
+## TRANSFORM YOUR BUSINESS WITH AUTOMATION
 
-I am able to help both individuals and small companies. It’s probably best to view me as a highly technical coach that wants to help his clients succeed. Yet I have other skills and abilities that I also offer to clients, as further described below.
+Common Sense helps small businesses and busy professionals automate
+repetitive tasks, enabling teams to focus on meaningful work that
+creates real value. We leverage low-code automation tools and
+generative AI to streamline your operations and boost productivity.
 
-By highly technical I mean to communicate that my career has been embedded software engineering in high-tech companies for almost 40 years. That includes a lot of hands-on software engineering work, as well as managing teams and managing other managers.
+> "Smart and reliable automation gives you more time to focus on doing what you love to do."
 
-More information on Common Sense is also [available]({{ '/about-us' | relative_url }}).
+## OUR EXPERTISE
+
+With over 35 years of software development experience and as a small business owner since 1996, we bring deep expertise in:
+
+- Business process improvement and automation
+- Custom software development
+- Small business operations and management
+- AI-assisted workflow optimization
+
