@@ -19,7 +19,7 @@ full-width: true
     <div class="row">
       <div class="col-lg-6">
         <h2>IT’S EASY TO WORK WITH US:</h2>
-        <a class="process-title" href="{{ '/automation' | relative_url }}">1. Review our process automation offerings&nbsp;&nearr;</a>
+<!--        <a class="process-title" href="{{ '/automation' | relative_url }}">1. Review our process automation offerings&nbsp;&nearr;</a>  -->
         <a class="process-title" href="{{ '/services' | relative_url }}">1. Review our services&nbsp;&nearr;</a>
         <div>Review our service offerings and see if we may be a good match for your needs.</div>
         <a class="process-title" href="{{ '/about-us' | relative_url }}">2. Check out our expertise&nbsp;&nearr;</a>
