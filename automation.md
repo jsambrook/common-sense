@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automation
+title: Process Automation
 ---
 
 ![Automation Services]({{ '/assets/img/happy-business-owner-yes.jpg' | relative_url }})
