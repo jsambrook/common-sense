@@ -7,9 +7,9 @@ full-width: true
 <div id="main-cover">
   <div id="cover-shield"></div>
   <div id="cover-unshield">
-    <div class="main-title">Software</div>
-    <div class="main-title">Engineering</div>
-    <div class="main-title">Services</div>
+    <h1 class="main-title">Software<br />
+     Engineering<br />
+    Services</h1>
     <div class="main-subtitle">SERVING THE PACIFIC NORTHWEST SINCE 1996</div>
   </div>
 </div>
